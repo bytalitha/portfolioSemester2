@@ -1,0 +1,2404 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Talitha</title>
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Shadows+Into+Light" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="photos/favicon.png">
+
+    <script defer src="main.js" ></script>
+    <script defer src="slideshow.js" ></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            
+            <div class="logo">
+                <a href="index.html"><img src="photos/logo.png" alt="logo" width="250px" style="vertical-align: middle"></a>
+            </div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="index.html#leeruitkomsten" class="dropbtn">Leeruitkomsten <i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                          <a href="interactiveMedia.html">Interactive Media</a>
+                          <a href="development.html">Development</a>
+                          <a href="design.html">Design</a>
+                          <a href="research.html">Research</a>
+                          <a href="communication.html">Communication</a>
+                          <a href="professionalIdentity.html">Professional Identity</a>
+                        </div> 
+                    </li>           
+                    <li><a href="about.html">Over mij</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="maxWidth">
+
+        <div id="myBtnContainer">
+            <h1>Projecten <b>Interactive Media</b></h1>
+                <div class="RowMyBtnContainer">
+                    <button class="buttonLeerdoelen active" onclick="filterSelection('showThisButton')"> Portfolio</button>
+                    <button class="buttonLeerdoelen" onclick="filterSelection('userExperience')"> User Experience</button>
+                    <button class="buttonLeerdoelen" onclick="filterSelection('mediaDevelopment')"> Media Development</button>
+                    <button class="buttonLeerdoelen" onclick="filterSelection('projectX')"> Project X</button>
+                </div>
+        </div>
+
+
+        <div class="filterDiv showThisButton">
+            <h2>Opdrachtomschrijving portfolio</h2>
+                <div class="opdrachtomschrijving">
+                    <p>Maak een portfolio dat laat zien wie je bent als mediavormgever en welk talent je bezit. 
+                        Het portfolio moet de volgende elementen bevatten:</p>
+                    <p>1. Bewijs om je leerresultaten te onderbouwen</p>
+                    <p>2. Reflecties op wat je hebt geleerd met betrekking tot deze leerresultaten</p>
+                    <p>Om een geweldig portfolio te maken, moet je er een project van maken in plaats van het als een haastklus te zien. 
+                        Net als bij de andere projecten die je dit semester hebt gedaan, heeft je portfolio een eigenaar (jijzelf) en een doelgroep (je docenten). 
+                        Maak gebruik van de technieken en methoden voor visueel ontwerp, gebruikerservaring en ontwikkeling die in dit semester aan bod komen. 
+                        Houd ook rekening met de feedback die je krijgt tijdens de portfolioreviewsessies.</p>
+                </div>
+
+            <h2>Inspiratie</h2>
+                <div class="widthRowFull">
+                    <div class="widthFifty">
+                        <img src="photosPortfolio/inspiratiePortfolio1.jpg" width="300px">
+                    </div>
+                    <div class="widthFifty">     
+                        <p>Ter inspiratie heb ik voornamelijk gekeken naar de portfolio's van studenten op Fontys. 
+                            Tijdens de les zijn enkele van deze portfolio's getoond, maar hiervan heb ik geen afbeeldingen.</p>
+                    </div>
+                </div>
+
+                <div class="widthRowFull">
+                    <div class="widthFifty">
+                        <img src="photosPortfolio/inspiratiePortfolio2.jpg" width="300px">
+                    </div>
+                    <div class="widthFifty">     
+                        <p>Ik wil de kleuren die in dit voorbeeld (zwart, geel en wit) worden gebruikt ook toepassen op mijn eigen portfolio website. 
+                            De reden achter deze kleurkeuze leg ik uit in het onderdeel "Research". 
+                            Daarnaast vind ik dat dit voorbeeld duidelijk en overzichtelijk is, en een minimalistische uitstraling heeft.</p>
+                    </div>
+                </div>
+
+            <h2>Schetsen</h2>
+                <h3>Versie I</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosPortfolio/schetsPortfolioVersie1.png" width="400px">
+                        </div>
+                        <div class="widthFifty">     
+                            <p>Dit is een schets van de homepagina met de leerdoelen in de navigatiebalk. 
+                                Bij het hoveren over een leerdoel worden de bijbehorende projecten getoond in een drop-down menu. 
+                                De pagina bevat een welkomsttekst en een afbeelding van mij.</p>
+                        </div>
+                    </div>
+
+                <h3>Versie II</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosPortfolio/schetsPortfolioVersie2.png" width="400px">
+                        </div>
+                        <div class="widthFifty">     
+                            <p>Na het bekijken van andere studentenportfolio's tijdens de les, besloot ik om mijn eigen portfolio anders op te zetten. 
+                                Ik plaatste de leerdoelen onderaan op de homepagina in plaats van in de navigatiebalk. 
+                                Het idee was om bij het klikken op een leerdoel de bijbehorende projecten te tonen. 
+                                De docent gaf als feedback dat dit onoverzichtelijk is, doordat de gebruiker niet kan zien waar hij/zij zich bevindt. 
+                                Ook zou de gebruiker terug naar de home-pagina moeten om een ander project te bekijken. 
+                                Tot slot zou dit veel HTML-bestanden vereisen en de kans op fouten vergroten.</p>
+                        </div>
+                    </div>
+
+                <h3>Versie III</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosPortfolio/schetsPortfolioVersie3.1.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">     
+                            <p>Op de homepagina vervang ik de leerdoelen door de projecten. 
+                                Ik voeg zes blokken toe voor de verwachte zes projecten: 
+                                portfolio website, filmposter, brand a band, user experience, media development en project X. 
+                                Elk blok zal een passende afbeelding van het project bevatten.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosPortfolio/schetsPortfolioVersie3.2.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty"> 
+                            <p>Bij het aanklikken van een project button ziet de gebruiker bovenaan de geopende pagina de leerdoelen van dat project. 
+                                Deze leerdoel buttons hebben een filterfunctie, waardoor de gebruiker per leerdoel kan bekijken wat ik 
+                                tijdens het project heb gedaan om dat leerdoel aan te tonen. Het eerste leerdoel is altijd actief bij het openen van de pagina. 
+                                Tijdens de eerste portfolio review kreeg ik feedback om de portfolio website per leeruitkomst te ordenen, zodat de 
+                                bijbehorende projecten per leeruitkomst bekeken kunnen worden.</p>
+                        </div>
+                    </div>
+
+                <h3>Versie IV</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosPortfolio/schetsPortfolioVersie4.1.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">     
+                            <p>Ik heb een drop-down menu toegevoegd om de navigatie tussen pagina's te vereenvoudigen. 
+                                Als je op "Leeruitkomsten" klikt, wordt de pagina automatisch naar beneden gescrold en 
+                                worden de leeruitkomsten buttons op de homepagina weergegeven.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosPortfolio/schetsPortfolioVersie4.2.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">     
+                            <p>Bij het klikken op een leeruitkomst button worden de bijbehorende projecten bovenaan de geopende pagina getoond. 
+                                Met de filterfunctie kan de gebruiker per project zien hoe ik dat leerdoel heb aangetoond.</p>
+                        </div>
+                    </div>
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/schetsenPortfoliowebsite.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>Schetsen</button>
+                    </a>
+                </div>
+
+            <h2>Wireframes</h2>
+                <p>Bekijk hier de wireframes:</p>
+                <div class="prototypeButtons">
+                    <div class="interactivemediaButtonContainer">
+                        <a href="https://www.figma.com/file/fGryHx0KbmyEkFjHaXinX7/Wireframes-Portfolio?node-id=1-2" target="_blank">
+                            <button class="pdfButton">Wireframe versie I</button>
+                        </a>
+                    </div>
+
+                    <div class="interactivemediaButtonContainer">
+                        <a href="https://www.figma.com/file/fGryHx0KbmyEkFjHaXinX7/Wireframes-Portfolio?node-id=67-2" target="_blank">
+                            <button class="pdfButton">Wireframe versie II</button>
+                        </a>
+                    </div>
+
+                    <div class="interactivemediaButtonContainer">
+                        <a href="https://www.figma.com/file/fGryHx0KbmyEkFjHaXinX7/Wireframes-Portfolio?node-id=70-2" target="_blank">
+                            <button class="pdfButton">Wireframe versie III</button>
+                        </a>
+                    </div>
+
+                    <div class="interactivemediaButtonContainer">
+                        <a href="https://www.figma.com/file/fGryHx0KbmyEkFjHaXinX7/Wireframes-Portfolio?node-id=70-3" target="_blank">
+                            <button class="pdfButton">Wireframe versie IV</button>
+                        </a>
+                    </div>
+                </div>
+
+                <h3>Versie I</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerPortfolio">
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/wireframePortfolioVersie1.1.png" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/wireframePortfolioVersie1.2.png" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/wireframePortfolioVersie1.3.png" width="450px">
+                                    </div>
+            
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/wireframePortfolioVersie1.4.png" width="450px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                        <span class="dot" onclick="currentSlide(4)"></span>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="widthFifty">
+                            <p>De homepagina bevat een welkomsttekst en een afbeelding van mij. 
+                                Daarnaast is er een dropdown-menu op de homepagina waarin de projectnamen worden weergegeven. 
+                                Voor de documentatie van de projecten is gekozen voor een indeling waarbij de afbeelding en tekst om en om links of rechts worden geplaatst. 
+                                Op de "Over mij" pagina is een afbeelding van mij en een tekst die meer over mij vertelt.</p>
+                        </div>
+                    </div>
+                
+                <h3>Versie II</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerPortfolio">
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/wireframePortfolioVersie2.1.png" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/wireframePortfolioVersie2.2.png" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/wireframePortfolioVersie2.3.png" width="450px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="widthFifty">
+                            <p>Op de homepagina is een filterfunctie toegevoegd, waarmee de bijbehorende projecten zichtbaar kunnen worden gemaakt. 
+                                Naast een welkomsttekst en een afbeelding van mij, zijn er iconen geplaatst die linken naar mijn GitLab en LinkedIn. 
+                                Voor de documentatie van de projecten heb ik gekozen om de afbeeldingen aan de linkerkant te plaatsen en de tekst aan de rechterkant. 
+                                Op de "Over mij" pagina is een afbeelding van mij te vinden, samen met een tekst die meer over mij vertelt.</p>
+                        </div>
+                    </div>
+
+                <h3>Versie III</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerPortfolio">
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/wireframePortfolioVersie3.1.png" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/wireframePortfolioVersie3.2.png" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/wireframePortfolioVersie3.3.png" width="450px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="widthFifty">
+                            <p>
+                                Op de homepagina zijn projectbuttons toegevoegd. 
+                                Naast een welkomsttekst en een afbeelding van mij, zijn er iconen geplaatst die linken naar mijn GitLab en LinkedIn. 
+                                De documentatie van de projecten heeft een filterfunctie, waarmee de bijbehorende documentatie van de leerdoelen 
+                                zichtbaar kan worden gemaakt. 
+                                Op de "Over mij" pagina is een afbeelding van mij te vinden, samen met een tekst die meer over mij vertelt.</p>
+                        </div>
+                    </div>
+
+                <h3>Versie IV</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerPortfolio">
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/wireframePortfolioVersie4.1.png" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/wireframePortfolioVersie4.2.png" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/wireframePortfolioVersie4.3.png" width="450px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/wireframePortfolioVersie4.4.png" width="450px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                        <span class="dot" onclick="currentSlide(4)"></span>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="widthFifty">
+                            <p>Op de homepagina zijn er buttons voor de leeruitkomsten toegevoegd. 
+                                Naast een welkomsttekst en een afbeelding van mij, zijn er iconen geplaatst die linken naar mijn GitLab en LinkedIn. 
+                                De homepagina bevat een dropdown-menu waarin de namen van de leeruitkomsten zichtbaar zijn. 
+                                De documentatie van de projecten heeft een filterfunctie, waarmee de bijbehorende documentatie 
+                                van de projecten zichtbaar kan worden gemaakt. 
+                                Op de "Over mij" pagina is een afbeelding van mij te vinden, samen met een tekst die meer over mij vertelt.</p>
+                        </div>
+                    </div>
+
+                    <div class="pdfButtonContainer">
+                        <div class="tekstPdfButton">
+                            <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                        </div>
+                        <a href="documentation/wireframesPortfoliowebsite.pdf" target="_blank">
+                            <button class="pdfButton">Open PDF<br>Wireframes</button>
+                        </a>
+                    </div>
+
+            <h2>Prototypes</h2>
+            <p>Bekijk hier de prototypes:</p>
+                <div class="prototypeButtons">
+                    <div class="interactivemediaButtonContainer">
+                        <a href="https://www.figma.com/file/AtnuKgD89gqgnVRYYUwnni/Prototype-portfolio?node-id=1%3A4&t=bLF95vPPlzVQWnlE-1" target="_blank">
+                            <button class="pdfButton">Prototype versie I</button>
+                        </a>
+                    </div>
+
+                    <div class="interactivemediaButtonContainer">
+                        <a href="https://www.figma.com/file/AtnuKgD89gqgnVRYYUwnni/Prototype-portfolio?node-id=1-3" target="_blank">
+                            <button class="pdfButton">Prototype versie II</button>
+                        </a>
+                    </div>
+
+                    <div class="interactivemediaButtonContainer">
+                        <a href="https://www.figma.com/file/AtnuKgD89gqgnVRYYUwnni/Prototype-portfolio?node-id=1-2" target="_blank">
+                            <button class="pdfButton">Prototype versie III</button>
+                        </a>
+                    </div>
+
+                    <div class="interactivemediaButtonContainer">
+                        <a href="https://www.figma.com/file/AtnuKgD89gqgnVRYYUwnni/Prototype-portfolio?node-id=0-1" target="_blank">
+                            <button class="pdfButton">Prototype versie IV</button>
+                        </a>
+                    </div>
+                </div>
+
+                <h3>Create Components Hover</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosPortfolio/componentsHover1.jpg" width="177px">
+                            <img src="photosPortfolio/componentsHover2.jpg" width="250px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Om een hover-effect te creëren bij “Over mij” heb ik buiten het frame over mij in het geel geschreven. 
+                                Hiervan heb ik een component gemaakt met “Create component”. Vervolgens heb ik via “Prototype” een lijn getrokken 
+                                van de witte over mij tekst naar het component. Hierna heb ik dit ingesteld op “While hovering”, “Open overlay” en “Manual”.
+                                Dit heb ik ook toegepast op alle hover-effecten voor mijn portfolio website.</p>
+                        </div>
+                    </div>
+
+                <h3>Create Components Dropdown</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosPortfolio/componentsNavbar1.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Het drop-down menu heb ik werkend gemaakt door een component aan te maken met verschillende varianten. 
+                                Er was echter een probleem dat het menu ook tevoorschijn kwam wanneer er over de pagina werd gehoverd.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosPortfolio/componentsNavbar2.jpg" width="250px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Dit probleem heb ik opgelost door de leeruitkomsten in de navigatiebalk van de prototype pagina's toe te voegen in witte tekst. 
+                                Vervolgens heb ik een component gecreëerd met de leeruitkomsten in geel en een dropdown menu. Wanneer er met de muis over de 
+                                witte leeruitkomst wordt bewogen, verschijnt het dropdown menu. Door de namen van 'Project 1', 'Project 2' en 'Project 3' geel 
+                                te maken en er met een prototype lijn naartoe te verwijzen, wordt de naam in het dropdown menu geel wanneer er overheen wordt bewogen.
+                                Dit heb ik ook toegepast op alle dropdown-effecten voor mijn portfolio website.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosPortfolio/prototypeDropdownVersie4.jpg" width="250px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op deze afbeelding is te zien hoe ik het dropdown menu van het prototype versie IV heb gemaakt.</p>
+                        </div>
+                    </div>
+
+                <h3>Versie I</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerPortfolio">
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/prototypeHomeVersie1.jpg" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/prototypeLeerdoelenVersie1.jpg" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/prototypeOverMijVersie1.jpg" width="450px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="widthFifty">
+                            <p>De wireframes van versie I zijn uitgewerkt in dit prototype.</p>
+                        </div>
+                    </div>
+
+                <h3>Versie II</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerPortfolio">
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/prototypeHomeVersie2.jpg" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/prototypeHomeVersie2.2.jpg" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/prototypeLeerdoelenVersie2.jpg" width="450px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/prototypeOverMijVersie2.jpg" width="450px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                        <span class="dot" onclick="currentSlide(4)"></span>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="widthFifty">
+                            <p>De wireframes van versie II zijn uitgewerkt in dit prototype.</p>
+                        </div>
+                    </div>   
+
+                <h3>Versie III</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerPortfolio">
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/prototypeHomeVersie3.jpg" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/prototypeLeerdoelenVersie3.jpg" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/prototypeOverMijVersie3.jpg" width="450px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="widthFifty">
+                            <p>De wireframes van versie III zijn uitgewerkt in dit prototype.
+                                De buttons hadden eerst helemaal ronde hoeken (zie versie II). 
+                                Dit heb ik aangepast naar vierkante buttons met afgeronde hoeken, zodat de stijl van de website meer op elkaar aansluit. 
+                                Dit had ik namelijk als feedback gehad van de docent.
+                                Ook heb ik de afbeelding op de home pagina vierkant gemaakt met afgeronde hoeken.
+                            </p>
+                        </div>
+                    </div>  
+
+                <h3>Versie IV</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerPortfolio">
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/prototypeHomeVersie4.jpg" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/prototypeLeerdoelenVersie4.jpg" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosPortfolio/prototypeOverMijVersie4.jpg" width="450px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="widthFifty">
+                            <p>De wireframes van versie IV zijn uitgewerkt in dit prototype.
+                                Ik heb het glow effect toegpast in de afbeelding in plaats van om de afbeelding heen.
+                                Verder heb ik meer glow effecten toegevoegd, zoals aan de navigatiebalk en de buttons.
+                                Tot slot heb ik een achtergrond toegevoegd met rookeffect.
+                            </p>
+                        </div>
+                    </div>  
+
+                    <div class="pdfButtonContainer">
+                        <div class="tekstPdfButton">
+                            <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                        </div>
+                        <a href="documentation/prototypesPortfoliowebsite.pdf" target="_blank">
+                            <button class="pdfButton">Open PDF<br>Prototypes</button>
+                        </a>
+                    </div>
+        </div>
+
+
+        <div class="filterDiv userExperience">
+            <h2>Opdrachtomschrijving user experience</h2>
+                <div class="opdrachtomschrijving">
+                    <p>Redesign en herbouw www.weldaseurope.com met de focus op een betere gebruikerservaring en een duidelijke call-to-action 
+                        om conversie te bevorderen. De oude website wordt vervangen, die momenteel wordt gebruikt als digitale brochure en geen 
+                        rekening houdt met bezoekers van de site. De nieuwe website moet een marketinginstrument worden en wordt gebouwd 
+                        in WordPress door Happy Horizon met een op maat gemaakt thema, waarbij vrijheid bestaat in de front-end technologie. 
+                        De URL-structuur moet hetzelfde blijven als die van de huidige website. Er is een beperkte stijlgids beschikbaar, 
+                        maar hiervan kan worden afgeweken met onderbouwing. 
+                        Weldas is een marktleider in Europa en wil een strakke marketing website om verdere uitbreiding te ondersteunen.</p>
+                    <p>Binnen onze groep hebben we de taken verdeeld, waarbij twee leden zich hebben gericht op het ontwerp voor mobiele 
+                        apparaten en twee leden zich hebben gericht op het ontwerp voor desktops. 
+                        Ik heb me voornamelijk gefocust op het ontwerp voor de desktopversie.</p>
+                </div>
+
+            <h2>Schetsen</h2>
+                <h3>Inspiratie</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/inspiratieOnderzoekB2B1.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ieder groepslid heeft de lijst met 11 B2B-websites, verstrekt door Fontys, geanalyseerd. Na het bespreken van de bevindingen, 
+                                hebben we gezamenlijk besloten om dit voorbeeld te gebruiken bij het ontwerpen van de homepagina voor Weldas.</p>
+                        </div>
+                    </div>
+
+                <h3>Homepagina</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/SchetsWeldasHome.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Het inspiratie voorbeeld heb ik uitgewerkt in een schets voor de website van Weldas. 
+                                Ik heb deze schets met mijn groepsgenoten gedeeld om te bespreken of we verder willen gaan met dit ontwerp, 
+                                zodat we allemaal dezelfde stijl aanhouden.</p>
+                        </div>
+                    </div>
+
+                <h3>Gekozen categorie</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerPortfolio">
+                                    <div class="mySlides fade">
+                                        <img src="photosUserExperience/SchetsWeldasKleding.jpg" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosUserExperience/SchetsWeldasBescherming.jpg" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosUserExperience/SchetsWeldasAccessoires.jpg" width="450px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Indien er op de homepagina geklikt wordt op 'kleding', 'bescherming' of 'accessoires' komt de gebruiker op de bijbehorende pagina terecht.
+                                Hierbij zijn per pagina de bijbehorende categorieën te zien.
+                                Deze pagina's hebben dezelfde stijl als de homepagina. </p>
+                        </div>
+                    </div> 
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/schetsenVoorWebsiteWeldas.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>Schetsen</button>
+                    </a>
+                </div>
+
+            <h2>Wireframes versie I</h2>
+            <p>Bekijk hier het wireframe:</p>
+                <div class="interactivemediaButtonContainer">
+                    <a href="https://www.figma.com/file/HhkfDQuJSIp3QAYK5opnxc/Wireframes-Weldas?type=design&node-id=1%3A3&t=TjJe8130sokkMiJR-1" target="_blank">
+                        <button class="pdfButton">Wireframe versie I</button>
+                    </a>
+                </div>
+
+                <h3>Inspiratie</h3>
+                    <div class="widthFifty">
+                        <p>Voor het ontwerpen van de pagina's heb ik me laten inspireren door verschillende websites, 
+                            zoals Mediamarkt, Weldas, Bol.com, B&G hekwerk enzovoorts. 
+                            In het pdf-bestand zijn de afbeeldingen hiervan te vinden.</p>
+                    </div>
+                
+                <h3>Home</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie1Home.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor de homepagina heb ik enkele aanpassingen gemaakt ten opzichte van de schets. 
+                                Ik heb een zoekbalk en taalfunctie toegevoegd om gebruikers in staat te stellen specifieke producten te vinden en 
+                                de taal van de website aan te passen. Daarnaast heb ik de categorie 'korting' toegevoegd.</p>
+                        </div>
+                    </div>
+
+                <h3>Producten</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie1Producten.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>'Producten' bevat een dropdownmenu met de categorieën 'Kleding', 'Bescherming' en 'Accessoires'. 
+                                Als gebruikers niet via het dropdownmenu op een specifieke categorie klikken, maar rechtstreeks op 'Producten', 
+                                worden ze naar deze pagina geleid. 
+                                Deze pagina is geïnspireerd door de website van Mediamarkt.</p>
+                        </div>
+                    </div>
+
+                <h3>Categorieën</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-container">
+                                    <div class="mySlides fade">
+                                        <img src="photosUserExperience/wireframesWeldasVersie1Kleding.jpg" width="550px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosUserExperience/wireframesWeldasVersie1Bescherming.jpg" width="550px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosUserExperience/wireframesWeldasVersie1Accessoires.jpg" width="550px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Indien er op de homepagina of via het dropdown menu op 'Kleding', 'Bescherming' of 'Accessoires' wordt geklikt, 
+                                komt de gebruiker op de bijbehorende pagina terecht. 
+                                Hier zijn de verschillende categorieën te zien. 
+                                Anders dan in de schets heb ik deze aangepast naar de stijl van wanneer er op 'Producten' wordt geklikt.</p>
+                        </div>
+                    </div> 
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie1Kortingen.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Weldas biedt maandelijkse kortingen aan op specifieke producten. 
+                                De website heeft een overzicht van deze producten, waarbij de korting voor het hele jaar zichtbaar blijft. 
+                                De lay-out van de website is in dezelfde stijl als Weldas</p>
+                        </div>
+                    </div>
+
+                <h3>Productlijst</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie1GekozenProducten1.jpg" width="350px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Klanten kunnen een specifieke categorie en productcategorie selecteren. 
+                                Ze worden dan naar een pagina geleid met een lijst van bijbehorende producten.
+                                Klanten kunnen de naam en de prijs van het product zien en het product toevoegen aan hun winkelwagentje.
+                                Dit ontwerp is geïnspireerd door Mediamarkt.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie1GekozenProducten2.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb een filter toegevoegd voor categorieën, merk, maat, materiaal en eigenschappen. 
+                                Dit vergemakkelijkt de productselectie. 
+                                De weergave van de productlijst is aangepast met kleinere vakken, zodat er meer producten tegelijkertijd worden getoond.
+                                Dit ontwerp is geïnspireerd op Bol.com.</p>
+                        </div>
+                    </div>
+
+                <h3>Productbeschrijving</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie1Productomschrijving.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op deze pagina worden afbeeldingen, beschrijving, eigenschappen en levertijd weergegeven. 
+                                Hier kan een maat en aantal geselecteerd worden, waarna het product aan het winkelwagentje toegevoegd kan worden. 
+                                De prijs ben ik vergeten toe te voegen, maar kan naast de 'In winkelwagentje button' worden getoond. 
+                                De pagina is geïnspireerd op Proforto.</p>
+                        </div>
+                    </div>
+
+                <h3>Certificering</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie1Certificering.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Bij het klikken op certificering worden de catalogus en certificeringstekst zichtbaar. 
+                                Hier is de belangrijkste informatie over certificering te vinden, inclusief downloadlinks voor certificaten. 
+                                Daarnaast kan ook de catalogus vanaf deze pagina worden bekeken. 
+                                De huidige certificeringspagina van Weldas diende als inspiratie.</p>
+                        </div>
+                    </div>
+
+                <h3>Over ons</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie1About.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op de over ons pagina kunnen klanten de belangrijkste informatie over Weldas lezen, 
+                                inclusief de merken, certificering en links naar Weldas USA en Weldas Asia. 
+                                De pagina is geïnspireerd door de huidige 'Wie zijn wij'-pagina van Weldas.
+                                Anders dan op de Weldas website, is er een aparte knop voor over ons aangemaakt. 
+                                Bij de Weldas website kon daar gekomen worden door via de homepagina op lees meer te klikken. </p>
+                        </div>
+                    </div>
+
+                <h3>Contact</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie1Contact.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op de contact pagina staan de contactgegevens van Weldas, inclusief een afbeelding van het gebouw, adres, 
+                                openingstijden en relevante bedrijfsnummers. Er is ook een mapskaart met de locatie. 
+                                Deze pagina is gebaseerd op de contactpagina van Weldas.</p>
+                        </div>
+                    </div>
+
+                <h3>Bestellijst</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie1Bestellijst.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op de winkelwagenpagina kunnen klanten hun gegevens invullen. Er is een optie om de gegevens te onthouden en 
+                                akkoord te gaan met de privacyverklaring. Klanten zien een overzicht van de bestelde producten met afbeelding, 
+                                naam, maat en aantal. Ze kunnen het aantal wijzigen en producten verwijderen. Er is een verzend bestelling knop 
+                                toegevoegd om de bestelling te plaatsen. De prijs van het artikel en de totaalprijs ontbreken, 
+                                maar de prijs kan worden toegevoegd tussen het aantal en de verwijder knop, en de totaalprijs links van de verzend bestelling knop.</p>
+                        </div>
+                    </div>
+
+                <h3>Feedback</h3>
+                    <div class="widthFifty">
+                        <p>Na het tonen van de wireframes aan de docent, heb ik feedback ontvangen. 
+                            De feedback benadrukte dat de wireframes voornamelijk gericht waren op een particulier bedrijf in plaats van een B2B-bedrijf, 
+                            vooral de gekozen productlijst pagina. 
+                            Daarnaast werd aangegeven dat de meeste B2B-bedrijven geen prijzen op hun website vermelden 
+                            en dat contact opnemen centraal staat. </p>
+                    </div>
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/WireframesWeldasVersie1.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>Wireframes versie I</button>
+                    </a>
+                </div>
+
+            <h2>Wireframes versie II</h2>
+            <p>Bekijk hier het wireframe:</p>
+                <div class="interactivemediaButtonContainer">
+                    <a href="https://www.figma.com/file/HhkfDQuJSIp3QAYK5opnxc/Wireframes-Weldas?type=design&node-id=0%3A1&t=TjJe8130sokkMiJR-1" target="_blank">
+                        <button class="pdfButton">Wireframe versie II</button>
+                    </a>
+                </div>
+
+                <h3>Inspiratie</h3>
+                    <div class="widthFifty">
+                        <p>Voor het ontwerpen van de pagina's heb ik me laten inspireren door verschillende websites, 
+                            zoals alle drie de Weldas websites, B&G hekwerk, Innovatest, enzovoorts. 
+                            In het pdf-bestand zijn de afbeeldingen hiervan te vinden.</p>
+                    </div>
+
+                <h3>Home</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie2Home1.jpg" width="450px">
+                            <img src="photosUserExperience/wireframesWeldasVersie2Home2.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Na feedback op de eerste wireframes is besloten om de focus meer op contact te leggen op de B2B-website. 
+                                Er is een klikbaar telefoonnummer bovenaan toegevoegd. Op de homepagina staan belangrijke productcategorieën naast een foto. 
+                                Daaronder is een korte tekst over Weldas met een optie om contact op te nemen met een specialist. 
+                                Ook zijn er foto's van de maandelijkse aanbiedingen.</p>
+                            <p>Video's zijn toegevoegd op basis van de wens van Weldas om meer gebruik te maken van hun eigen beeldmateriaal. 
+                                Daarna is er een formulier waar klanten hun gegevens kunnen achterlaten voor contact met Weldas.</p>
+                            <p>Onderaan de pagina is een footer met productcategorieën, navigatieknoppen, adres en contactgegevens, KvK, 
+                                BTW en EORI-nummers, YouTube-link en andere links zoals in de huidige Weldas-footer.</p>
+                        </div>
+                    </div>
+
+                <h3>Categorieën</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie2Kleding.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Wanneer er op producten wordt geklikt, wordt deze pagina automatisch geladen. 
+                                Aan de linkerkant is er de mogelijkheid om naar de categorie bescherming of accessoires te gaan. 
+                                Aan de rechterkant zijn alle subcategorieën van kleding te zien. 
+                                Hierbij is een kleine afbeelding toegevoegd met de naam van deze subcategorie.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie2Kortingen.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De korting categorie is verbeterd door het toevoegen van uitgebreidere informatie. 
+                                Er worden afbeeldingen getoond van producten die momenteel in de aanbieding zijn, 
+                                wat overeenkomt met de huidige website van Weldas. Door te klikken op de afbeelding kan meer informatie over het product worden verkregen. 
+                                Naast de lijst met kortingen voor het hele jaar is er ook een afbeelding toegevoegd die door Weldas is
+                                 gemaakt om de afbeeldingen van Weldas meer naar voren te laten komen.</p>
+                        </div>
+                    </div>
+
+                <h3>productlijst</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie2GekozenProducten1.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De wireframe toont de pagina voor handschoenen. Boven aan de pagina zijn twee filters toegevoegd: 
+                                één voor het selecteren van het type handschoenen en één voor het kiezen van het merk. 
+                                Daaronder worden de producten weergegeven die aan de geselecteerde filters voldoen. 
+                                Hierbij is gekozen voor een kleine afbeelding, productnaam, maten en een knop voor meer details. 
+                                De prijs is bewust weggelaten, aangezien dit gebruikelijker is voor B2B-websites. </p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie2GekozenProducten2.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op basis van feedback van een lasser zijn er aanpassingen gedaan aan de productinformatie. 
+                                De certificering en maat zijn toegevoegd om belangrijke details direct zichtbaar te maken. 
+                                De korte informatie bevat nu een afbeelding, productnaam en merk. De prijs is bewust weggelaten, 
+                                omdat dit niet gebruikelijk is op B2B-websites. 
+                                Klanten kunnen op 'product details' klikken voor meer informatie.</p>
+                            <p>Het filter is opnieuw aangepast, dit keer in overeenstemming met de gebruikelijke weergave op de meeste websites, 
+                                inclusief B2B-bedrijven. Om de filteropties te vereenvoudigen, heb ik het materiaal weggehaald, omdat alle producten 
+                                van dierlijk materiaal zijn gemaakt. Ook heb ik de eigenschappen weggelaten, 
+                                aangezien slechts één product specifiek vermeldde dat het olie- en waterafstotend was</p>
+                        </div>
+                    </div>
+
+                <h3>Productbeschrijving</h3>       
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie2Productomschrijving.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De productbeschrijving pagina is herontworpen zodat er een beter overzicht ontstaat. 
+                                Certificering is toegevoegd omdat dit voor lassers van belang is. Ook is er een handleiding te vinden van het product.
+                                Tot slot is er een optie om direct contact op te nemen met Weldas.</p>
+                        </div>
+                    </div>
+                
+                <h3>Certificering</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie2Certificering.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op deze pagina is alleen de footer toegevoegd. Verder zijn er geen wijzigingen.</p>
+                        </div>
+                    </div>
+
+                <h3>Over ons</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie2About.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op deze pagina is alleen de footer toegevoegd. Verder zijn er geen wijzigingen.</p>
+                        </div>
+                    </div>
+
+                <h3>Contact</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie2Contact.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De contactpagina is bijgewerkt met de contactgegevens van andere Weldas-bedrijven, 
+                                geïnspireerd door het voorbeeld van Weldas USA. Hierdoor zijn de gegevens van deze bedrijven gemakkelijker te vinden.</p>
+                        </div>
+                    </div>
+
+                <h3>Bestellijst</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/wireframesWeldasVersie2Bestellijst.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op de bestellijst zijn sterretjes toegevoegd bij de vereiste gegevens. 
+                                Daarnaast zijn er twee knoppen toegevoegd: één voor het aanvragen van een offerte en één voor direct bestellen. 
+                                De directe besteloptie is met name bedoeld voor bekende klanten, 
+                                terwijl de offerte knop bedoeld is voor (nieuwe) klanten die de prijs van de bestelling willen weten.</p>
+                        </div>
+                    </div>
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/WireframesWeldasVersie2.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>Wireframes versie II</button>
+                    </a>
+                </div>
+
+            <h2>Prototype</h2>
+                <h3>Korting pagina</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-container">
+                                    <div class="mySlides fade">
+                                        <img src="photosUserExperience/prototypeWeldasPaginaKorting1.jpg" width="550px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosUserExperience/prototypeWeldasPaginaKorting2.jpg" width="550px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>De meeste pagina's van het prototype zijn uitgewerkt door een groepsgenoot. Ik heb de kortingspagina uitgewerkt. 
+                                In de eerste afbeelding werden allemaal dezelfde handschoenen weergegeven, 
+                                daarom heb ik op de tweede afbeelding de handschoenen aangepast zodat  er verschillende soorten handschoenen worden getoond.</p>
+                        </div>
+                    </div> 
+
+                <h3>Uitlijning desktopversie</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-container">
+                                    <div class="mySlides fade">
+                                        <img src="photosUserExperience/prototypeWeldasUitlijning1.jpg" width="550px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosUserExperience/prototypeWeldasUitlijning2.jpg" width="550px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op de eerste afbeelding is te zien dat de uitlijning van de navigatiebalk, het tekstgedeelte en de footer niet consistent is. 
+                                Om dit op te lossen, heb ik de uitlijning aangepast op alle pagina's van het desktop-prototype, zodat deze nu wel overeenkomen. 
+                                Ik heb meer witruimte toegevoegd aan de navigatiebalk. 
+                                Als je de andere pagina's van het prototype wilt bekijken, kun je op de knop klikken.</p>
+                        </div>
+                    </div> 
+
+                    <p>Bekijk hier het prototype:</p>
+                    <div class="interactivemediaButtonContainer">
+                        <a href="https://www.figma.com/file/ibhiLJVNBETOS0BioHG435/Uitlijning-aangepast-Weldas?type=design&node-id=6%3A165&t=07jKvRzR7Xe03G4y-1" target="_blank">
+                            <button class="pdfButton">Prototype desktopversie</button>
+                        </a>
+                    </div>
+                
+                <h3>Contactgegevens</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/prototypeWeldasContactgegevens.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb ervoor gezorgd dat alleen de koptekst dikgedrukt is, aangezien eerst alle tekst dikgedrukt was. 
+                                Bovendien heb ik het mobiele telefoonnummer dikgedrukt en een speciale kleur gegeven, omdat Weldas 
+                                telefonisch contact belangrijk vindt. Daarnaast heb ik de openingstijden aangepast, zodat ze nu voor 
+                                alle dagen te zien zijn in plaats van alleen doordeweeks. 
+                                Ik heb ook gezorgd voor een betere uitlijning van de openingstijden, waardoor ze beter te lezen zijn.</p>
+                        </div>
+                    </div>
+
+                <h3>Taalfunctie</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/prototypeWeldasTaalfunctie.jpg" width="150px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De taalfunctie werkte oorspronkelijk al wanneer er met de muis overheen werd gehoverd. 
+                                De bedoeling was dat deze zou uitklappen wanneer erop werd geklikt. 
+                                Daarom heb ik de functionaliteit aangepast. Dit heb ik gedaan door de Interaction details in te stellen 
+                                op 'on click' en 'open overlay → manual'. Hierdoor klapt de taalfunctie nu open wanneer erop wordt geklikt. 
+                                Uiteraard moet de taalfunctie ook weer gesloten kunnen worden. 
+                                Hiervoor heb ik de instelling 'on click → close overlay' toegepast.</p>
+                        </div>
+                    </div>
+
+                <h3>Dropdown menu mobiele versie</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/prototypeWeldasDropdownmenuMobiel.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Om het drop-down menu werkend te maken voor de mobiele versie, heb ik een component aangemaakt met twee verschillende varianten. 
+                                Er was echter een probleem waarbij het menu onbedoeld tevoorschijn kwam wanneer er met de muis over de pagina werd bewogen.</p>
+                            <P>Ik heb dit probleem opgelost door een alleen Hamburger-menu-icoon toe te voegen aan de navigatiebalk. 
+                                Hierbij heb ik een component gemaakt dat zowel het Hamburger-menu als de navigatiebalken bevat. 
+                                Ik heb de functionaliteit zo ingesteld dat het component opent wanneer erop wordt geklikt. 
+                                Dit heb ik gedaan door deze in te stellen op 'on click → open overlay → manual'. </P>
+                        </div>
+                    </div>
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/prototypeWeldasDesktop.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>Prototype</button>
+                    </a>
+                </div>
+
+            <h2>Overeenkomen prototype desktop en mobiel</h2>
+                <h3>Tekst</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/overeenkomenPrototypeTekst.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor de desktopversie heb ik de kleur van de hoofdkopjes gewijzigd. In plaats van lichtblauw, 
+                                heb ik ze veranderd naar donkerblauw. Bovendien heb ik ervoor gezorgd dat de hoofdkopjes in hoofdletters worden weergegeven, 
+                                zodat ze overeenkomen met zowel de mobiele versie als de oorspronkelijke Weldas-website.</p>
+                            <p>De tekst was in de desktopversie allemaal zwart en dikgedrukt. Ik heb dit aangepast naar normale tekst. 
+                                In de mobiele versie was alle tekst oorspronkelijk donkerblauw. Dit heb ik gewijzigd naar zwart.</p>
+                        </div>
+                    </div>
+
+                <h3>Navigatiebalk</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/overeenkomenPrototypeNavigatiebalk.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>In de desktopversie was de navigatiebalk geel met lichtblauwe tekst. Voor de mobiele versie was er een uitklapbaar menu 
+                                met een blauw vlak en zwarte tekst. Om de consistentie tussen de verschillende versies te verbeteren, heb ik ervoor 
+                                gezorgd dat het vlak in het mobiele menu nu ook geel is, net als in de desktopversie. 
+                                Bovendien heb ik de tekstkleur in het mobiele menu aangepast naar lichtblauw, zodat deze overeenkomt met de desktopversie.</p>
+                        </div>
+                    </div>
+
+                <h3>Korting</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/overeenkomenPrototypeKorting.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>In de desktopversie was de korting rood en had het een ronde vorm. In de mobiele versie was de korting geel en had het een vierkante vorm. 
+                                Ik heb ervoor gekozen om de gele kleur te behouden, omdat deze overeenkomt met de kleuren van Weldas. 
+                                Daarnaast heb ik voor de ronde vorm gekozen, omdat dit ervoor zorgt dat de afbeelding beter zichtbaar blijft.</p>
+                        </div>
+                    </div>
+
+                <h3>Productlijst</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/overeenkomenPrototypeProductlijst.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>In de mobiele versie werd een winkelwagentje gebruikt als knop om naar de producteigenschappen te gaan. 
+                                Door op het winkelwagentje te klikken, werd het product dus niet in de winkelwagen geplaatst. 
+                                Dit was verwarrend, waardoor ik een knop ‘product details’ heb gecreëerd. Dit komt overeen met de desktopversie.
+                            </p>
+                        </div>
+                    </div>
+
+                <h3>Productbeschrijving</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/overeenkomenPrototypeProductbeschrijving.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb de productbeschrijving pagina op de mobiele versie aangepast om beter aan te laten sluiten bij de desktopversie. 
+                                Ik heb ervoor gezorgd dat de kleuren van de knoppen nu overeenkomen met die van de desktopversie. 
+                                De lichtblauwe kleur met gele tekst, die voorheen werd gebruikt voor de knoppen, is verwijderd. 
+                                Ook heb ik de randen rondom de knoppen verwijderd. 
+                                Verder heb ik ervoor gezorgd dat de elementen in de mobiele versie beter zijn uitgelijnd.</p>
+                        </div>
+                    </div>
+
+                <h3>Bestellijst</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosUserExperience/overeenkomenPrototypeBestelllijst.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>In de desktopversie is een nieuwe knop toegevoegd met de tekst ‘Terug naar het overzicht van producten’. 
+                                Voor de mobiele versie heb ik aanpassingen gedaan aan de kleuren van de knoppen. 
+                                Bovendien is de kleur van de tekstvakken veranderd. De gele kleur bij de mobiele versie is verwijderd, 
+                                omdat dit een verouderde uitstraling heeft. 
+                                In plaats daarvan is er gekozen voor een grijze kleur. Tot slot heb ik voorbeeldgegevens toegevoegd. </p>
+                        </div>
+                    </div>
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/overeenkomenPrototypesWeldas.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>Overeenkomen prototypes</button>
+                    </a>
+                </div>
+
+            <h2>User test Call-to-Action (CTA)</h2>
+                <div class="widthFifty">
+                    <p>Tijdens dit project heb ik onderzoek gedaan naar drie verschillende call-to-action buttons. 
+                        Het doel van dit onderzoek was om inzicht te krijgen in welke call-to-action het meest effectief is 
+                        in het bevorderen van conversie op de website www.weldaseurope.com. 
+                        Bij het leerdoel <b>research</b> wordt dit onderzoek beschreven.</p>
+                </div>
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/userTestCallToAction.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>User test CTA</button>
+                    </a>
+                </div>
+        </div>
+
+        <div class="filterDiv mediaDevelopment">
+            <h2>Opdrachtomschrijving media development</h2>
+            <div class="opdrachtomschrijving">
+                <p>Deze development opdracht heeft twee delen: het omzetten van jouw design naar code (mobile first) en het ontwikkelen van een 
+                    Easter egg die past bij de doelgroep. Om de Easter egg te kunnen implementeren, 
+                    moet je de nieuwe opzet van de Weldas-website ontwikkelen gebaseerd op het grafisch en interactie ontwerp van de vorige opdracht.</p>
+                <p>Voor het mobile first aspect kun je eenvoudig Devtools in je browser gebruiken om de gewenste telefoonbreedte te selecteren. 
+                    Schrijf media queries voor desktop elementen die aanpassingen nodig hebben. 
+                    Bedenk een verborgen functionaliteit en ontwikkel een werkend proof of concept.</p>
+            </div>
+            
+            <h2>User test Easter Egg</h2>
+                <div class="widthFifty">
+                    <p>Tijdens dit project heb ik onderzoek gedaan naar de door mij geprogrammeerde Easter Egg.
+                        Het doel van dit onderzoek is om inzicht te krijgen in de gebruiksvriendelijkheid en 
+                        de effectiviteit van de Easter Egg op de listerpage van de website van Weldas.
+                        Bij het leerdoel <b>research</b> wordt dit onderzoek beschreven.</p>
+                </div>
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/userTestEasterEggWeldas.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>User test Easter Egg</button>
+                    </a>
+                </div>
+        </div>
+
+
+        <div class="filterDiv projectX">
+            <h2>Opdrachtomschrijving project x</h2>
+                <div class="opdrachtomschrijving">
+                    <p>Ik heb een persoonlijke begeleider vanuit Fontys gekozen en mijn plan van aanpak met hem besproken. 
+                        Ik wil diverse producten ontwikkelen voor een yogastudio, waaronder een verbeterd logo, chakra wallpaper, 
+                        visitekaartje, foto's voor de website en optimalisatie van de desktopversie. Ik wil ook onderzoek doen naar 
+                        het design van yoga websites, mobiele website eisen en een user test uitvoeren. Daarnaast wil ik een tarotkaartfunctie 
+                        toevoegen en een mobiele versie van de website maken. Ik zal documentatie bijhouden voor elk product en een 
+                        presentatievideo maken om het proces en de resultaten te tonen op de presentatiedag. 
+                        Het is belangrijk dat hierbij rekening wordt gehouden met de huisstijl van de yogastudio.</p>
+                    <p><b>Een gedetailleerde opdrachtomschrijving, een plan van aanpak en de huisstijl zijn te vinden in het pdf-document.</b></p>
+
+                    <div class="pdfButtonContainer">
+                        <a href="documentation/planVanAanpakProjectX.pdf" target="_blank">
+                            <button class="pdfButton">Open PDF<br>Opdracht project x</button>
+                        </a>
+                    </div>
+                </div>
+
+            <h2>Schetsen mobiel</h2>
+                <div class="widthRowFull">
+                    <div class="widthFifty">
+                        <div class="slideshow-containerMobile">
+                                <div class="mySlides fade">
+                                    <img src="photosProjectX/schetsMobielHome.jpg" width="200px">
+                                </div>
+                            
+                                <div class="mySlides fade">
+                                    <img src="photosProjectX/schetsMobielAanbod.jpg" width="200px">
+                                </div>
+                            
+                                <div class="mySlides fade">
+                                    <img src="photosProjectX/schetsMobielTarieven.jpg" width="200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <img src="photosProjectX/schetsMobielContact.jpg" width="200px">
+                                </div>
+                            
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                
+                                <div class="dotPlace">
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                    <span class="dot" onclick="currentSlide(4)"></span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="widthFifty">
+                        <p>De homepagina heeft een logo linksboven en een knop rechts om het menu te openen. 
+                            Het menu bevat subpagina's en links naar sociale media. De homepagina bevat ook een video en een welkomsttekst.</p>
+                        <p>Op de aanbodpagina staat het logo en de menuknop bovenaan, met het kopje 'Aanbod' in het midden. 
+                            Daaronder staat een beschrijving van het aanbod en een passende foto.</p>
+                        <p>Op de tarievenpagina is het logo en de menuknop bovenaan te vinden, met de kop 'Tarieven'. 
+                            Hier worden verschillende tarieven weergegeven in tegels met titels en prijzen.</p>
+                        <p>Op de contactpagina staan het logo en de menuknop bovenaan, met de kop 'Contact'. 
+                            Er is een plattegrond, belangrijke gegevens zoals adres, openingstijden en contactopties, en een contactformulier.</p>
+                    </div>
+                </div> 
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/schetsenMobielProjectX.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>Schetsen mobiel</button>
+                    </a>
+                </div>
+
+            <h2>Wireframes mobiel</h2>
+            <p>Bekijk hier het wireframe:</p>
+                <div class="interactivemediaButtonContainer">
+                    <a href="https://www.figma.com/file/yCUgLEmih4R06lOG0Mm9lo/yogastudio-mobiel?type=design&node-id=0%3A1&t=u4if4pbd13H7Ul3J-1" target="_blank">
+                        <button class="pdfButton">Wireframe versie I</button>
+                    </a>
+                </div>
+
+                <h3>Home</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/wireframesMobielHome1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/wireframesMobielHome2.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/wireframesMobielHome3.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor het wireframe van de homepagina heb ik inspiratie opgedaan van Black Yoga Society en Liquid Breath. 
+                                Ik heb foto-tegels gebruikt om bezoekers naar andere delen van de site te leiden. 
+                                In de schets had ik een video bovenaan de pagina, maar in plaats daarvan heb ik een voor een afbeelding gekozen. 
+                                Het wireframe bevat een logo, menuknop, welkomsttekst en een footer met sociale media logo's, adres en copyrightinformatie.</p>
+                        </div>
+                    </div> 
+                
+                <h3>Dropdown menu</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosProjectX/wireframesMobielDropdown.jpg" width="200px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik haalde inspiratie voor het dropdown menu van Yoga Best. Door te klikken op de drie streepjes klapt het menu uit. 
+                                Alleen de items die uitgeklapt kunnen worden hebben een pijltje, voor een rustigere uitstraling. 
+                                Bij het klikken op 'Aanbod' of 'Social Media' worden de onderliggende items zichtbaar.</p>
+                        </div>
+                    </div>
+
+                <h3>Aanbod</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosProjectX/wireframesMobielAanbod.jpg" width="200px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik haalde inspiratie voor het wireframe van de aanbodpagina van The Yoga Home, waar ze een afbeelding onder de tekst gebruiken. 
+                                Mijn aanbodpagina bevat een kopje met informatie en eindigt met een passende foto.</p>
+                        </div>
+                    </div>
+
+                <h3>Tarieven</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosProjectX/wireframesMobielTarieven.jpg" width="200px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor het wireframe van de tarievenpagina heb ik inspiratie opgedaan van verschillende websites. 
+                                Op Liquid Breath wordt een call-to-action knop gebruikt, die ik ook wil toevoegen. Op Yoga Soul Best worden tarieven weergegeven in tegels met koppen en prijzen, wat ik ook wil gebruiken. 
+                                Hot Yoga Eindhoven inspireerde mij om studentenkorting aan te bieden, zoals ook op de tarievenpagina van De Albatros zal worden weergegeven.</p>
+                        </div>
+                    </div>
+
+                <h3>Over ons</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/wireframesMobielOverons1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/wireframesMobielOverons2.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik haalde inspiratie bij Yoga Soul Best voor de 'Over ons' pagina, waar ze hun docenten vermelden op de 'Onze studio' pagina. 
+                                Dit zal ook worden toegevoegd aan de 'Over ons' pagina van De Albatros. De pagina bevat een foto van de studio, 
+                                gevolgd door een beschrijvende tekst. 
+                                Daarna worden foto's, namen en korte beschrijvingen van onze instructeurs getoond.</p>
+                        </div>
+                    </div> 
+
+                <h3>Contact</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/wireframesMobielContact1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/wireframesMobielContact2.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor de contactpagina heb ik inspiratie opgedaan bij Yoga Soul Best. 
+                                Het wireframe van de contactpagina bevat een korte inleiding, een kaart, contactgegevens, openingstijden, logo’s van de social media-accounts en een contactformulier. </p>
+                        </div>
+                    </div> 
+
+                <h3>Aanmelden</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/wireframesMobielAanmelden1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/wireframesMobielAanmelden2.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor het ontwerp van de aanmeldpagina heb ik gekeken naar de informatie die andere websites vragen, met name de website van Basic-Fit. 
+                                Op de aanmeldpagina wordt gevraagd naar de gewenste aanmeldoptie, aantal personen, locatiekeuze en optionele opmerkingen. 
+                                Daarna volgt een formulier voor persoonlijke en adresgegevens, inclusief optionele huisnummertoevoeging. 
+                                Tot slot is er een verzendknop om alle gegevens te versturen.</p>
+                        </div>
+                    </div> 
+
+                    <div class="pdfButtonContainer">
+                        <div class="tekstPdfButton">
+                            <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                        </div>
+                        <a href="documentation/wireframesMobielYoga.pdf" target="_blank">
+                            <button class="pdfButton">Open PDF<br>Wireframes mobiel</button>
+                        </a>
+                    </div>
+
+            <h2>Prototype mobiel versie I</h2>
+            <p>Bekijk hier het prototype:</p>
+                <div class="interactivemediaButtonContainer">
+                    <a href="https://www.figma.com/file/yCUgLEmih4R06lOG0Mm9lo/yogastudio-mobiel?type=design&node-id=2%3A2&t=u4if4pbd13H7Ul3J-1" target="_blank">
+                        <button class="pdfButton">Prototype versie I</button>
+                    </a>
+                </div>
+                
+                <h3>Navigatiebalk</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Navigatiebalk1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Navigatiebalk2.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Navigatiebalk3.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Navigatiebalk4.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                        <span class="dot" onclick="currentSlide(4)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb drie componenten gemaakt voor de navigatiebalk. Het eerste component wordt geopend wanneer er op het hamburgermenu wordt geklikt. 
+                                Het tweede component opent bij het klikken op 'Aanbod' en het derde component opent bij het klikken op 'Social Media'. 
+                                Hierdoor wordt het geopende component vervangen door het nieuwe component. 
+                                De afbeeldingen tonen hoe de navigatiebalk eruitziet in het prototype. 
+                                Om het gebruikersgemak te vergroten, is de navigatiebalk vastgezet (fixed). 
+                                Ik heb de navigatiebalk geel gemaakt om de pagina's meer kleur te geven, 
+                                omdat de witte bovenkant van de navigatiebalk een kleurloze uitstraling had.</p>
+                        </div>
+                    </div> 
+
+                <h3>Home</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Home1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Home2.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Home3.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Home4.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                        <span class="dot" onclick="currentSlide(4)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Bij het bekijken van verschillende yoga websites viel op dat mobiele versies de afbeeldingsknoppen onder elkaar plaatsen. 
+                                In mijn prototype leken de knoppen meer op afbeeldingen vanwege hun grote formaat. Om dit op te lossen, 
+                                heb ik ervoor gekozen om vier kleinere afbeeldingsknoppen te gebruiken, waarbij twee knoppen naast elkaar worden geplaatst op mijn website. 
+                                Uiteindelijk is het de bedoeling dat elke knop een passende afbeelding heeft, waardoor er vier verschillende afbeeldingen te zien zijn. 
+                                De video en de tekst eronder zijn geplaatst in een licht gekleurd vak, waardoor de website een extra kleurelement krijgt.</p>
+                        </div>
+                    </div>
+                    
+                <h3>Aanbod</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Aanbod1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Aanbod2.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Aanbod3.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Aanbod4.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Aanbod5.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Aanbod6.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                        <span class="dot" onclick="currentSlide(4)"></span>
+                                        <span class="dot" onclick="currentSlide(5)"></span>
+                                        <span class="dot" onclick="currentSlide(6)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op de aanbodpagina's wordt eerst de informatie weergegeven, gevolgd door de prijs en ten slotte een passende afbeelding. 
+                                Als er extra aanbod, zoals yogavormen, wordt toegevoegd, worden deze op dezelfde manier weergegeven.</p>
+                            <p>Bij TRE heb ik bewust gekozen voor een afbeelding van een olifant vanwege de symboliek en het belang van de Psoas-spier. 
+                                Dieren activeren deze spier instinctief tijdens trauma, terwijl mensen dit vermogen vaak onderdrukken. </p>
+                        </div>
+                    </div>
+
+                <h3>Tarot</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Tarot1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Tarot2.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Tarot3.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Tarot4.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                        <span class="dot" onclick="currentSlide(4)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>De tarotpagina is vergelijkbaar met andere aanbodpagina's, maar met een klikbare kaartfunctie zodat 
+                                mensen een kaart kunnen trekken. De tarotkaarten op de website komen uit 1909 en vallen nu in het publieke domein 
+                                omdat het auteursrecht 70 jaar na het overlijden van de laatste mede-auteur vervalt. 
+                                Dit betekent dat de kaarten vrij kunnen worden gebruikt zonder juridische beperkingen.</p>
+                        </div>
+                    </div>
+
+                <h3>Tarieven</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Tarieven1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Tarieven2.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op de tarievenpagina staan twee knoppen om de eerste sessie uit te proberen. 
+                                Gratis proeflessen zijn niet praktisch voor privélessen, dus bied ik korting aan. 
+                                Het intakegesprek is gratis en dient als een kennismaking om behoeften te bespreken en een goede match te bepalen. 
+                                Studentenkorting wordt ook aangeboden om financiële lasten te verlichten. 
+                                In het midden van de pagina is de prijzenlijst te bekijken.</p>
+                            <p>Ik gebruik een rode knop omdat dit de meest opvallende kleur was binnen het bestaande kleurenpalet.</p>
+                        </div>
+                    </div>
+
+                <h3>Over ons</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1OverOns1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1OverOns2.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor de yogastudio heb ik met behulp van Adobe Firefly (AI) een afbeelding gemaakt om een idee te geven van de studio binnen de huisstijl.
+                                Deze afbeelding zorgt voor een visuele indruk van de studio. 
+                                Daaronder is een tekst over De Albatros te vinden. 
+                                Verder is er een kopje 'Onze instructeurs' waar bezoekers een idee kunnen krijgen van de instructeurs.</p>
+                        </div>
+                    </div>
+
+                <h3>Contact</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Contact1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Contact2.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op de contactpagina staan de contactgegevens van De Albatros, inclusief een klikbaar WhatsApp-logo. 
+                                Daaronder is een live maps-locatie te vinden. Ook staan de openingstijden van de studio vermeld. 
+                                De social media-accounts worden opnieuw weergegeven om mensen te stimuleren deze te volgen. 
+                                Tot slot is er een contactformulier beschikbaar voor het gemakkelijk versturen van een bericht.</p>
+                        </div>
+                    </div>
+
+                <h3>Aanmelden</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Aanmelden1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeMobielVersie1Aanmelden2.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb een component gemaakt met alle opties om de keuze uitklapbaar te maken, met behulp van de interaction details 
+                                'on tap → open overlay → manual'. Voor elke keuze heb ik een component gemaakt en deze ingesteld op 'on tap → swap overlay', 
+                                zodat de geselecteerde keuze op het aanmeldformulier wordt weergegeven.
+                                Ditzelfde principe heb ik toegepast op het aantal personen en de locatie.</p>
+                            <p>Op de aanmeldpagina kunnen de gewenste opties worden geselecteerd. Er is een optioneel opmerkingenveld toegevoegd. 
+                                Daarna volgt het invullen van persoonlijke en adresgegevens. Tot slot is er een verzendknop om alles te versturen.</p>
+                        </div>
+                    </div>
+
+                    <div class="pdfButtonContainer">
+                        <div class="tekstPdfButton">
+                            <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                        </div>
+                        <a href="documentation/prototypeMobielVersie1Yoga.pdf" target="_blank">
+                            <button class="pdfButton">Open PDF<br>Prototype mobiel versie I</button>
+                        </a>
+                    </div>
+
+            <h2>Prototype mobiel versie II</h2>
+            <p>Bekijk hier het prototype:</p>
+                <div class="interactivemediaButtonContainer">
+                    <a href="https://www.figma.com/file/yCUgLEmih4R06lOG0Mm9lo/yogastudio-mobiel?type=design&node-id=302%3A21&t=u4if4pbd13H7Ul3J-1" target="_blank">
+                        <button class="pdfButton">Prototype versie II</button>
+                    </a>
+                </div>
+
+                <h3>Kleuren</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosProjectX/kleurenVoorWebsiteYoga.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik koos eerst een rode knop vanwege de opvallende kleur, maar dat kan problematisch zijn voor kleurenblinde mensen en 
+                                wordt geassocieerd met alarm. Daarom zocht ik naar kleuren die goed samengaan met geel. Groen leek een optie, 
+                                maar kan ook moeilijk zijn voor kleurenblinde mensen. 
+                                Uiteindelijk koos ik blauw als alternatieve kleur, omdat het complementair is aan geel en goed contrasteert.</p>
+                        </div>
+                    </div>
+
+                <h3>Home</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielHome1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielHome2.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielHome3.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Het gekleurde logo verdwijnt in de achtergrond, vooral het oranje en gele deel. 
+                                Om dit op te lossen, heb ik een zwarte omlijning aan het logo toegevoegd. 
+                                Hierdoor wordt het logo beter zichtbaar, terwijl ik nog steeds het gekleurde logo kan gebruiken.</p>
+                            <p>Om het lage contrast tussen geel en wit te verhelpen, heb ik drie verschillende kopjes gemaakt en getest. 
+                                Na het testen bleek de variant met het tekstvak de beste optie. 
+                                Hierbij is het contrast verhoogd door een geel tekstvak met zwarte tekst te gebruiken.</p>
+                        </div>
+                    </div>
+
+                <h3>Aanbod</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielAanbod1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielAanbod2.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielAanbod3.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielAanbod4.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielAanbod5.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielAanbod6.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielAanbod7.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielAanbod8.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielAanbod9.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielAanbod10.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                        <span class="dot" onclick="currentSlide(4)"></span>
+                                        <span class="dot" onclick="currentSlide(5)"></span>
+                                        <span class="dot" onclick="currentSlide(6)"></span>
+                                        <span class="dot" onclick="currentSlide(7)"></span>
+                                        <span class="dot" onclick="currentSlide(8)"></span>
+                                        <span class="dot" onclick="currentSlide(9)"></span>
+                                        <span class="dot" onclick="currentSlide(10)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb feedback ontvangen om kopjes te gebruiken in plaats van een doorlopende lap tekst. 
+                                Door kopjes te gebruiken, wordt de leesbaarheid vergroot en krijgt de tekst meer structuur. 
+                                Dit maakt het gemakkelijker voor lezers om de inhoud te scannen en snel de gewenste informatie te vinden.</p>
+                            <p>Voor de tarotkaart heb ik ervoor gekozen om 'Trek een kaart' in het midden van de kaart te plaatsen in plaats van erboven. 
+                                Hierdoor wordt het duidelijker dat er op de kaart geklikt kan worden.</p>
+                        </div>
+                    </div>
+
+                <h3>Tarieven</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielTarieven1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielTarieven2.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Om de consistentie te verhogen, heb ik ervoor gezorgd dat de tarievenlijst aansluit bij het contactformulier (zie Contact). 
+                                Hierdoor komt de kleur geel ook meer terug in het ontwerp.</p>
+                        </div>
+                    </div>
+
+                <h3>Over ons</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielOverOns1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielOverOns2.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Bij de 'Over ons' pagina heb ik ook kopjes gebruikt in plaats van een doorlopende tekst.</p>
+                        </div>
+                    </div>
+
+                <h3>Contact</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielContact1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielContact2.jpg" width="200px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielContact3.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Het gele contactformulier kwam naar mijn mening ouderwets over. 
+                                Daarom ben ik op zoek gegaan naar een modern contactformulier. 
+                                Ik vond hier weinig informatie over, maar bij het bekijken van afbeeldingen 
+                                in Google zag ik dat de meeste contactformulieren minimalistisch en wit van kleur zijn.</p>
+                            <p>Ik heb een veelgestelde vragen toegevoegd. 
+                                Een FAQ voorziet bezoekers van directe antwoorden op veelgestelde vragen zonder dat ze contact hoeven op te nemen.</p>
+                        </div>
+                    </div>
+
+                <h3>Aanmelden</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerMobile">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielAanmelden1.jpg" width="200px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/versie2PrototypeMobielAanmelden2.jpg" width="200px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Bij het aanmeldformulier heb ik een grijze kleur gebruikt in plaats van een lichtblauwe kleur.
+                                Hierdoor vallen de tekstvakken meer op.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pdfButtonContainer">
+                        <div class="tekstPdfButton">
+                            <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                        </div>
+                        <a href="documentation/prototypeMobielVersie2Yoga.pdf" target="_blank">
+                            <button class="pdfButton">Open PDF<br>Prototype mobiel versie II</button>
+                        </a>
+                    </div>
+
+            <h2>Schetsen desktop</h2>
+                <div class="widthRowFull">
+                    <div class="widthFifty">
+                        <div class="slideshow-containerPortfolio">
+                                <div class="mySlides fade">
+                                    <img src="photosProjectX/desktopHome.jpg" width="450px">
+                                </div>
+                            
+                                <div class="mySlides fade">
+                                    <img src="photosProjectX/desktopAanbod.jpg" width="450px">
+                                </div>
+                            
+                                <div class="mySlides fade">
+                                    <img src="photosProjectX/desktopTarieven.jpg" width="450px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <img src="photosProjectX/desktopContact.jpg" width="450px">
+                                </div>
+                            
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                
+                                <div class="dotPlace">
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                    <span class="dot" onclick="currentSlide(4)"></span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="widthFifty">
+                        <p>Nadat het prototype van de mobiele versie gemaakt was, zijn de schetsen voor de desktopversie gemaakt. 
+                            Deze schetsen bevatten dezelfde elementen als de mobiele schetsen, maar zijn anders opgebouwd. 
+                            De navigatiekopjes zijn direct zichtbaar in de navigatiebalk en worden niet langer weergegeven in een hamburgermenu. 
+                            Daarnaast worden de meeste elementen naast elkaar weergegeven in plaats van onder elkaar.</p>
+                    </div>
+                </div> 
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/schetsenDesktopProjectx.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>Schetsen desktopversie</button>
+                    </a>
+                </div>
+
+            <h2>Wireframes desktop</h2>
+            <p>Bekijk hier het wireframe:</p>
+                <div class="interactivemediaButtonContainer">
+                    <a href="https://www.figma.com/file/gx46HGEVjZOMaJAaWNar0i/yogastudio-desktop?type=design&node-id=0%3A1&t=ZE1uTd7tQ8eTUw0G-1" target="_blank">
+                        <button class="pdfButton">Wireframe versie I</button>
+                    </a>
+                </div>
+
+                <h3>Home</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosProjectX/wireframesDesktopHome.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor zowel het mobiele als het desktop wireframe van de homepagina heb ik inspiratie gehaald uit Black Yoga Society en Liquidbreath. 
+                                Ik heb de klikbare afbeeldingen naast elkaar geplaatst in plaats van onder elkaar, 
+                                en ook de video en tekst staan naast elkaar in plaats van onder elkaar. </p>
+                        </div>
+                    </div>
+
+                <h3>Aanbod</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerPortfolio">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/wireframesDesktopAanbod1.jpg" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/wireframesDesktopAanbod2.jpg" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/wireframesDesktopAanbod3.jpg" width="450px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/wireframesDesktopAanbod4.jpg" width="450px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/wireframesDesktopAanbod5.jpg" width="450px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                        <span class="dot" onclick="currentSlide(4)"></span>
+                                        <span class="dot" onclick="currentSlide(5)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor het mobiele en desktop wireframe van de aanbodpagina heb ik inspiratie opgedaan bij The Yoga Home. 
+                                Op de mobiele versie staan de tekst en afbeelding onder elkaar, terwijl op de desktopversie ze naast elkaar staan. </p>
+                        </div>
+                    </div> 
+
+                <h3>Tarieven</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosProjectX/wireframesDesktopTarieven.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor het mobiele en desktop wireframe van de tarievenpagina haalde ik inspiratie uit Yoga Soul Best. 
+                                Op de mobiele versie staan de tekst en prijzenlijst onder elkaar, terwijl op de desktopversie ze naast elkaar staan.</p>
+                        </div>
+                    </div>
+
+                <h3>Over ons</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosProjectX/wireframesDesktopOverOns.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor het mobiele en desktop wireframe van de over ons pagina haalde ik inspiratie uit Yoga Soul Best. 
+                                Op de mobiele versie staan de tekst en afbeelding onder elkaar, terwijl op de desktopversie ze naast elkaar staan.</p>
+                        </div>
+                    </div>
+
+                <h3>Contact</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosProjectX/wireframesDesktopContact.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor het mobiele en desktop wireframe van de contactpagina haalde ik inspiratie uit Yoga Soul Best. 
+                                In de mobiele versie staan alle elementen onder elkaar, 
+                                terwijl op de desktopversie de contactgegevens en maps-locatie bovenaan staan naast het contactformulier. 
+                                De openingstijden, social media accounts en veelgestelde vragen heb ik onderaan de pagina geplaatst.</p>
+                        </div>
+                    </div>
+
+                <h3>Aanmelden</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosProjectX/wireframesDesktopAanmelden.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor het mobiele en desktop wireframe van de aanmeldpagina haalde ik inspiratie uit Basic-Fit. 
+                                De invoervelden staan in de mobiele versie onder elkaar en in de desktopversie heb ik 
+                                de invoervelden aan beide zijden onder elkaar geplaatst.</p>
+                        </div>
+                    </div>
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/wireframesDesktopYoga.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>Wireframes desktop</button>
+                    </a>
+                </div>
+
+            <h2>Prototype desktop</h2>
+            <p>Bekijk hier het prototype:</p>
+                <div class="interactivemediaButtonContainer">
+                    <a href="https://www.figma.com/file/gx46HGEVjZOMaJAaWNar0i/yogastudio-desktop?type=design&node-id=1%3A2&t=ZE1uTd7tQ8eTUw0G-1" target="_blank">
+                        <button class="pdfButton">Prototype versie I</button>
+                    </a>
+                </div>
+
+                <h3>Home</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosProjectX/prototypeDesktopHome.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op deze afbeelding is te zien hoe de homepagina eruit komt te zien op een desktop.</p>
+                        </div>
+                    </div>
+
+                <h3>Aanbod</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-containerPortfolio">
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeDesktopAanbod1.jpg" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeDesktopAanbod2.jpg" width="450px">
+                                    </div>
+                                
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeDesktopAanbod3.jpg" width="450px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeDesktopAanbod4.jpg" width="450px">
+                                    </div>
+
+                                    <div class="mySlides fade">
+                                        <img src="photosProjectX/prototypeDesktopAanbod5.jpg" width="450px">
+                                    </div>
+                                
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    
+                                    <div class="dotPlace">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                        <span class="dot" onclick="currentSlide(4)"></span>
+                                        <span class="dot" onclick="currentSlide(5)"></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op deze afbeeldingen is te zien hoe de aanbodpagina’s eruit komen te zien op een desktop.</p>
+                        </div>
+                    </div> 
+
+                <h3>Tarieven</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosProjectX/prototypeDesktopTarieven.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op deze afbeelding is te zien hoe de tarieven pagina eruit komt te zien op een desktop.</p>
+                        </div>
+                    </div>
+
+                <h3>Over ons</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosProjectX/prototypeDesktopOverons.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op deze afbeelding is te zien hoe de over ons pagina eruit komt te zien op een desktop.</p>
+                        </div>
+                    </div>
+
+                <h3>Contact</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosProjectX/prototypeDesktopContact.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb de indeling van de contactpagina aangepast ten opzichte van het wireframe. 
+                                Bij het optimaliseren voor responsief design vond ik het niet handig om twee FAQ’s naast elkaar te plaatsen. 
+                                Om een overzichtelijkere uitstraling te creëren, heb ik alleen contact in een geel tekstvak geplaatst. 
+                                Daarnaast heb ik de indeling iets aangepast om de uitlijning te verbeteren.</p>
+                        </div>
+                    </div>
+
+                <h3>Aanmelden</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosProjectX/prototypeDesktopAanmelden.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op deze afbeelding is te zien hoe de aanmeldpagina eruit komt te zien op een desktop.</p>
+                        </div>
+                    </div>
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/prototypeDesktopYoga.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>Prototype desktop</button>
+                    </a>
+                </div>
+
+            <h2>User tests</h2>
+                <h3>Design website</h3>
+                    <div class="widthFifty">
+                        <p>Tijdens dit project heb ik onderzoek gedaan naar de twee verschillende website designs. 
+                            Het doel van dit onderzoek was om de voorkeur van gebruikers te bepalen voor het ontwerp van twee yoga websites. 
+                            Bij het leerdoel <b>research</b> wordt dit onderzoek beschreven.</p>
+                    </div>
+
+                    <div class="pdfButtonContainer">
+                        <div class="tekstPdfButton">
+                            <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                        </div>
+                        <a href="documentation/userTestDesignWebsite.pdf" target="_blank">
+                            <button class="pdfButton">Open PDF<br>User Test Design Website</button>
+                        </a>
+                    </div>
+    
+
+                <h3>Ontwerp kopjes</h3>
+                    <div class="widthFifty">
+                        <p>Tijdens dit project heb ik onderzoek gedaan naar drie verschillende soorten kopjes. 
+                            Het doel van dit onderzoek was om de voorkeur te bepalen voor het ontwerp van de kopjes op de yoga website. 
+                            Bij het leerdoel <b>research</b> wordt dit onderzoek beschreven.</p>
+                    </div>
+
+                    <div class="pdfButtonContainer">
+                        <div class="tekstPdfButton">
+                            <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                        </div>
+                        <a href="documentation/userTestOntwerpKopjes.pdf" target="_blank">
+                            <button class="pdfButton">Open PDF<br>User Test Ontwerp Kopjes</button>
+                        </a>
+                    </div>
+        </div>
+
+    </div>
+
+    <footer></footer>
+
+</body>
+</html>
