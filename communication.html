@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Talitha</title>
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Shadows+Into+Light" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="photos/favicon.png">
+
+    <script defer src="main.js" ></script>
+    <script defer src="slideshow.js" ></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            
+            <div class="logo">
+                <a href="index.html"><img src="photos/logo.png" alt="logo" width="250px" style="vertical-align: middle"></a>
+            </div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="index.html#leeruitkomsten" class="dropbtn">Leeruitkomsten <i class="fa fa-caret-down"></i></a>   
+                        <div class="dropdown-content">
+                          <a href="interactiveMedia.html">Interactive Media</a>
+                          <a href="development.html">Development</a>
+                          <a href="design.html">Design</a>
+                          <a href="research.html">Research</a>
+                          <a href="communication.html">Communication</a>
+                          <a href="professionalIdentity.html">Professional Identity</a>
+                        </div> 
+                    </li>            
+                    <li><a href="about.html">Over mij</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="maxWidth">
+
+        <div id="myBtnContainer">
+            <h1>Projecten <b>Communication</b></h1>
+                <div class="RowMyBtnContainer">
+                    <button class="buttonLeerdoelen active" onclick="filterSelection('showThisButton')"> Portfolio</button>
+                    <button class="buttonLeerdoelen" onclick="filterSelection('filmposter')"> Filmposter</button>
+                    <button class="buttonLeerdoelen" onclick="filterSelection('brandaBand')"> Brand a Band</button>
+                    <button class="buttonLeerdoelen" onclick="filterSelection('userExperience')"> User Experience</button>
+                    <button class="buttonLeerdoelen" onclick="filterSelection('mediaDevelopment')"> Media Development</button>
+                    <button class="buttonLeerdoelen" onclick="filterSelection('projectX')"> Project X</button>
+                </div>
+        </div>
+
+
+        <div class="filterDiv showThisButton">
+            <h2>Portfolio reviews</h2>
+                <div class="widthFifty">
+                    <p>Dit semester heb ik drie portfolio reviews gehad. Tijdens deze reviews heb ik mijn portfolio website gepresenteerd 
+                        aan twee docenten en twee medestudenten. De portfolio reviews waren een waardevolle ervaring voor mij, 
+                        omdat ik feedback kreeg van mensen met verschillende perspectieven.</p>
+                </div>
+            
+            <h2>Feedback vragen</h2>
+                <div class="widthFifty">
+                    <p>Tijdens dit semester heb ik geprobeerd om regelmatig in contact te blijven met mijn docenten en medestudenten om feedback te 
+                        krijgen en om hulp te vragen. Ik heb gemerkt dat dit erg nuttig was, omdat ik zo mijn portfolio kon verbeteren en 
+                        mijn vaardigheden verder kon ontwikkelen.</p>
+                </div>
+        
+                
+        </div>
+
+
+        <div class="filterDiv filmposter">
+            <h2>Presentatie</h2>
+                <div class="widthRowFull">
+                    <div class="widthFifty">
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <img src="photosFilmposter/presentatieFilmposter1.jpg" width="550px">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <img src="photosFilmposter/presentatieFilmposter2.jpg" width="550px">
+                            </div>
+                        
+                            <div class="mySlides fade">
+                                <img src="photosFilmposter/presentatieFilmposter3.jpg" width="550px">
+                            </div>
+                        
+                            <div class="mySlides fade">
+                                <img src="photosFilmposter/presentatieFilmposter4.jpg" width="550px">
+                            </div>
+                        
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            
+                            <div class="dotPlace">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="widthFifty">
+                        <p>In de eerste week van dit semester had ik mijn presentatie over mijn filmposter. 
+                            Ik vond dit een uitdaging, omdat ik de klas nog niet goed kende. 
+                            Uiteindelijk viel het mee, aangezien de presentatie kort was en niet langer dan 2 minuten mocht duren. 
+                            Tijdens mijn presentatie heb ik mijn eindposter gepresenteerd, samen met de inspiratie en het proces dat erachter zat.</p>
+                    </div>
+                </div>
+        </div>
+
+        <div class="filterDiv brandaBand">
+            <h2>Contactpersoon</h2>
+                <div class="widthFifty">
+                    <p>Tijdens dit project was ik de contactpersoon. 
+                        Tijdens de eerste sprint heb ik geen contact opgenomen met Oumy. 
+                        Als groep hadden we besloten om dit niet te doen, omdat we dachten dat als je een opdracht krijgt 
+                        in het bedrijfsleven, je deze in de sprint uitwerkt en bij de review aan de opdrachtgever toont. 
+                        Bovendien wilde ik voorkomen dat Oumy zou denken dat ik te vaak deelproducten zou sturen. 
+                        Tijdens de presentatie van de eerste sprint merkte ik op dat Oumy het juist niet fijn vond dat ik geen contact had opgenomen. 
+                        Hierdoor was de afstemming met Oumy niet goed genoeg.</p>
+                    <p>In de tweede sprint heb ik een andere aanpak gekozen. 
+                        Telkens wanneer we een product hadden afgerond, stuurde ik dit naar Oumy en vroeg ik om feedback. 
+                        Het was fijn dat Oumy snel reageerde, zodat we deze feedback snel konden verwerken. 
+                        Het contact vond plaats via Whatsapp.</p>  
+                    <p>In het vervolg zou ik het contact anders aanpakken. 
+                        Ik zou vooraf afspraken maken met de opdrachtgever over hoe vaak en op welke dagen hij/zij 
+                        updates zou willen ontvangen over de gemaakte producten. </p>
+                </div>
+            <h2>Presentaties</h2>
+                <h3>Brand Guide versie I</h3>
+                    <div class="widthFifty">
+                        <p>Tijdens de les heb ik de volledige Brand Guide aan de docenten gepresenteerd. 
+                            Ik vind presenteren lastig. Aan het einde van de presentatie kreeg ik redelijk wat feedback op de Brand Guide. 
+                            Op dat moment vond ik dat vervelend, omdat ik hard had gewerkt aan de brand guide. 
+                            Ik heb de feedback wel verwerkt en achteraf gezien was ik het er ook mee eens.</p>
+                    </div>
+
+                <h3>Presentatie sprint I</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-container">
+                                <div class="mySlides fade">
+                                    <img src="photosBrandABand/brandguideVoorpaginaVersie2.png" width="550px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <img src="photosBrandABand/brandguideStylescape.jpg" width="550px">
+                                </div>
+                            
+                                <div class="mySlides fade">
+                                    <img src="photosBrandABand/brandguideKernwaardenVersie2.jpg" width="550px">
+                                </div>
+                            
+                                <div class="mySlides fade">
+                                    <img src="photosBrandABand/brandguideToneOfVisualVersie2.png" width="550px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <img src="photosBrandABand/brandguideToneOfVoiceVersie2.png" width="550px">
+                                </div>
+                            
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                
+                                <div class="dotPlace">
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                    <span class="dot" onclick="currentSlide(4)"></span>
+                                    <span class="dot" onclick="currentSlide(5)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Dit zijn de dia's die ik tijdens de eerste sprint heb gepresenteerd. 
+                                Tijdens het presenteren merkte ik dat ik moeite had om uit mijn woorden te komen, 
+                                vooral bij het presenteren van de stylescape liep ik vast. De presentatie vond plaats via Teams, 
+                                waardoor ik merkte dat het contact maken met Oumy lastiger was dan bij een fysieke presentatie.</p>
+                            <p>Aan het einde van de presentatie gaven de docenten aan dat de feedback op de vorige Brand Guide goed was verwerkt. 
+                                Oumy gaf aan dat het logo en het woord 'enthousiast' niet aansloot bij haar. 
+                                Het is mij opgevallen dat de andere groepen een betere afstemming hadden met Oumy dan onze groep.</p>
+                        </div>
+                    </div>
+
+                <h3>Presentatie sprint II</h3>
+                   <div class="widthRowFull">
+                        <div class="widthFifty">  
+                            <div class="slideshow-container">
+                                <div class="mySlides fade">
+                                    <img src="photosBrandABand/contentstrategieDoelgroep.png" width="550px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <img src="photosBrandABand/contentstrategieVoorbeeldFacebook.png" width="550px">
+                                </div>
+                            
+                                <div class="mySlides fade">
+                                    <img src="photosBrandABand/contentstrategieVoorbeeldYoutube.png" width="550px">
+                                </div>
+                            
+                                <div class="mySlides fade">
+                                    <img src="photosBrandABand/contentstrategiePlanning.jpg" width="550px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <img src="photosBrandABand/presentatieWebsite.png" width="550px">
+                                </div>
+                            
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                
+                                <div class="dotPlace">
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                    <span class="dot" onclick="currentSlide(4)"></span>
+                                    <span class="dot" onclick="currentSlide(5)"></span>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="widthFifty">
+                            <p>Dit zijn de dia’s die ik heb gepresenteerd tijdens de tweede sprint. 
+                                Ik zou eigenlijk niet de doelgroep presenteren, maar omdat mijn groepsgenoot hierbij vastliep, heb ik dit overgenomen. 
+                                Tijdens de feedbackronde vroeg Oumy welke bron ik had gebruikt voor de doelgroepanalyse. 
+                                Omdat ik dit niet uit mijn hoofd wist, voelde ik me niet goed voorbereid. 
+                                Daarom wil ik de volgende keer de bronnen duidelijk noteren. 
+                                Na de presentatie heeft Oumy gevraagd om de T-shirts vergroot te zien, maar dit had ik niet ingesteld op de website. 
+                                In de toekomst wil ik ervoor zorgen dat afbeeldingen goed te bekijken zijn.</p>
+                        </div>
+                    </div>  
+
+                <h2>FeedPulse</h2>
+                    <div class="widthFifty">
+                        <p>Indien we als groep feedback hadden ontvangen en er een FeedPulse werd opengezet, heb ik deze op 1x na altijd ingevuld.
+                            Door dit te doen, laat ik merken dat ik heb geluisterd naar de feedback.</p>  
+                    </div>
+        </div>
+
+
+        <div class="filterDiv userExperience">
+            <h2>Respondenten user test</h2>
+                <div class="widthFifty">
+                    <p>Tijdens dit project heb ik actief gebruik gemaakt van mijn netwerk door mensen persoonlijk op te zoeken die 
+                        geschikt waren om de user test in te vullen. Hierbij heb ik me gericht op personen met inkoopfuncties.
+                        Het opbouwen en onderhouden van een professioneel netwerk kan van waarde zijn voor het bereiken 
+                        van zakelijke doelstellingen en het verkrijgen van waardevolle inzichten.</p>  
+                </div>
+
+            <h2>Eindpresentatie</h2>
+                <div class="widthRowFull">
+                    <div class="widthFifty">
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <img src="photosUserExperience/eindpresentatieWeldas1.jpg" width="550px">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <img src="photosUserExperience/eindpresentatieWeldas2.jpg" width="550px">
+                            </div>
+                        
+                            <div class="mySlides fade">
+                                <img src="photosUserExperience/eindpresentatieWeldas3.jpg" width="550px">
+                            </div>
+                        
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            
+                            <div class="dotPlace">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widthFifty">
+                        <p>De eindpresentatie van Weldas heb ik met een andere groepsgenoot gegeven. 
+                            Tijdens deze presentatie heb ik het logo, het Call-to-Action onderzoek en de desktopversie van 
+                            ons prototype gepresenteerd. Tijdens deze presentatie ondervonden we technische problemen met 
+                            het HDMI-signaal, waardoor ik het idee had dat we de aandacht van de opdrachtgever en de klas waren verloren. 
+                            We hebben om onze presentatie zo goed mogelijk af te ronden.</p>
+                        <p>Tijdens de presentatie moesten we meerdere keren switchen tussen bestanden, wat ook voor vertraging van de presentatie zorgde. 
+                            Hierdoor denk ik dat het beter is om de volgende keer alle informatie in de PowerPoint-presentatie verwerken.</p>
+                    </div>
+                </div>
+        </div>
+
+
+        <div class="filterDiv mediaDevelopment">
+            <h2>Presentatie sprint I</h2>
+                <div class="widthRowFull">
+                    <div class="widthFifty">
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <img src="photosMediaDevelopment/presentatieWeldasSprintI.jpg" width="550px">
+                            </div>
+
+                            <div class="mySlides fade">
+                                <img src="photosMediaDevelopment/WebdesignVersie1.jpg" width="550px">
+                            </div>
+                        
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            
+                            <div class="dotPlace">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widthFifty">
+                        <p>Deze presentatie is gegeven aan de opdrachtgever, docenten en klasgenoten. 
+                            Tijdens de presentatie heb ik mijn deel, de 'Listerpage', gepresenteerd, evenals het idee voor de Easter Egg die ik wilde implementeren. 
+                            We hebben een live demonstratie gegeven van de pagina's, waardoor ik geen inspiratie voorbeeld heb getoond van het ontwerp voor de Easter Egg. 
+                            Achteraf gezien zou het waarschijnlijk beter zijn geweest om een manier te vinden om dit voorbeeld te laten zien, zodat de opdrachtgever al een idee had van de Easter Egg.</p>
+                    </div>
+                </div>
+
+            <h2>Presentatie sprint II</h2>
+                <h3>Eindpresentatie</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <div class="slideshow-container">
+                                <div class="mySlides fade">
+                                    <img src="photosMediaDevelopment/presentatieWeldasSprintII.jpg" width="550px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <img src="photosMediaDevelopment/WebdesignVersie3.jpg" width="550px">
+                                </div>
+                            
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                
+                                <div class="dotPlace">
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Deze presentatie was als een soort 'marktvorm', waarbij opdrachtgevers, docenten en klasgenoten langs de tafels konden lopen 
+                                en wij als groep een live demonstratie gaven van de gemaakte pagina's. 
+                                Tijdens deze presentatie richtte ik me op de door mij gemaakte 'Listerpage' en Easter Egg.
+                                Deze presentatievorm was interactief en gaf ons meer tijd om feedback te ontvangen. 
+                                De ontvangen feedback was dat het leuk zou zijn als de navigatiebalk bij de mobiele versie uitklapt met een animatie-effect. 
+                                Ook werd benadrukt dat het belangrijk is dat de filter vaststaat en dat meerdere breakpoints nodig zijn voor een betere responsiviteit. 
+                                In de toekomst zal ik hier rekening mee houden.</p>
+                        </div>
+                    </div>
+
+                <h3>Toestemming LinkedIn</h3>
+                    <div class="widthFifty">
+                        <p>Tijdens de eindpresentatie heb ik de opdrachtgevers om toestemming gevraagd om de door mij gemaakte producten te delen op LinkedIn. 
+                            Helaas was het antwoord nee. Ik heb hun beslissing gerespecteerd en niks gedeeld.</p>
+                    </div>
+
+            <h2>Respondenten user test</h2>
+                <div class="widthFifty">
+                    <p>Tijdens dit project heb ik actief gebruik gemaakt van mijn netwerk door mensen persoonlijk op te zoeken die de user test konden in vullen.</p>
+                </div>
+
+            <h2>Feedpulse</h2>
+                <div class="widthFifty">
+                    <p>Indien we als groep feedback hadden ontvangen en er een FeedPulse werd opengezet, heb ik deze altijd ingevuld.</p>
+                </div>
+
+            
+        </div>
+
+        
+        <div class="filterDiv projectX">
+            <h2>Feedback gesprekken</h2>
+                <div class="widthFifty">
+                    <p>Tijdens dit project heb ik contact opgenomen met een docent om mij te coachen. Er was wekelijks fysiek contact waarbij ik 
+                        mijn werk kon laten zien en feedback kon vragen over mijn voortgang. Hierbij kon ik ook aangeven waar ik tegenaan liep 
+                        tijdens het project.  In de eerste week van het project was er geen fysieke les op de dag dat de docent aanwezig was, 
+                        dus heb ik via Teams contact opgenomen om een dag te plannen om alsnog te kunnen bespreken wat ik tot dan toe had gedaan.</p>
+                </div>
+
+            <h2>Fotograaf</h2>
+                <div class="widthFifty">
+                    <p>Tijdens dit project heb ik foto's laten maken van mezelf in verschillende yogahoudingen en achtergronden. 
+                        Ik heb hiervoor iemand in mijn netwerk benaderd die over een professionele camera beschikt en kennis heeft van fotografie, 
+                        en gevraagd of diegene bereid was om dit voor mij te doen.</p>
+                </div>
+
+            <h2>Respondenten user test</h2>
+                <div class="widthFifty">
+                    <p>Tijdens dit project heb ik actief gebruik gemaakt van mijn netwerk door mensen persoonlijk op te zoeken die de user tests konden in vullen.</p>
+                </div>
+
+            <h2>Presentatiedag</h2>
+                <div class="widthRowFull">
+                    <div class="widthFifty">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ujHPTHOsK-Q" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="widthFifty">
+                        <p>Ik sluit dit project af met een S2-evenement op vrijdag 16 juni 2023. 
+                            Tijdens dit evenement presenteer ik het werk dat ik heb gemaakt tijdens mijn individuele project. 
+                            Samen met andere studenten sta ik aan een tafel waar ik mijn eindproduct(en) laat zien. 
+                            Daarnaast laat ik een showreel zien, een video van maximaal 75 seconden over mijn project.</p>
+                    </div>
+                </div>
+
+        </div>
+
+
+
+    </div>
+
+    <footer></footer>
+
+    
+
+</body>
+</html>
