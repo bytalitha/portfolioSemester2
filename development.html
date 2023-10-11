@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Talitha</title>
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Shadows+Into+Light" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="photos/favicon.png">
+
+    <script defer src="main.js" ></script>
+    <script defer src="slideshow.js" ></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            
+            <div class="logo">
+                <a href="index.html"><img src="photos/logo.png" alt="logo" width="250px" style="vertical-align: middle"></a>
+            </div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="index.html#leeruitkomsten" class="dropbtn">Leeruitkomsten <i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                          <a href="interactiveMedia.html">Interactive Media</a>
+                          <a href="development.html">Development</a>
+                          <a href="design.html">Design</a>
+                          <a href="research.html">Research</a>
+                          <a href="communication.html">Communication</a>
+                          <a href="professionalIdentity.html">Professional Identity</a>
+                        </div> 
+                    </li>                 
+                    <li><a href="about.html">Over mij</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="maxWidth">
+
+        <div id="myBtnContainer">
+            <h1>Projecten <b>Development</b></h1>
+                <div class="RowMyBtnContainer">
+                    <button class="buttonLeerdoelen active" onclick="filterSelection('showThisButton')"> Portfolio</button>
+                    <button class="buttonLeerdoelen" onclick="filterSelection('oefeningen')"> Oefeningen les</button>
+                    <button class="buttonLeerdoelen" onclick="filterSelection('brandaBand')"> Brand a Band</button>
+                    <button class="buttonLeerdoelen" onclick="filterSelection('mediaDevelopment')"> Media Development</button>
+                    <button class="buttonLeerdoelen" onclick="filterSelection('projectX')"> Project X</button>
+                    <button class="buttonLeerdoelen" onclick="filterSelection('vueJS')"> Vue.js</button>
+                </div>
+        </div>
+
+        <div class="filterDiv showThisButton">
+            <h2>Opdrachtomschrijving portfolio</h2>
+                <div class="opdrachtomschrijving">
+                    <p>Maak een portfolio dat laat zien wie je bent als mediavormgever en welk talent je bezit. 
+                        Het portfolio moet de volgende elementen bevatten:</p>
+                    <p>1. Bewijs om je leerresultaten te onderbouwen</p>
+                    <p>2. Reflecties op wat je hebt geleerd met betrekking tot deze leerresultaten</p>
+                    <p>Om een geweldig portfolio te maken, moet je er een project van maken in plaats van het als een haastklus te zien. 
+                        Net als bij de andere projecten die je dit semester hebt gedaan, heeft je portfolio een eigenaar (jijzelf) en een doelgroep (je docenten). 
+                        Maak gebruik van de technieken en methoden voor visueel ontwerp, gebruikerservaring en ontwikkeling die in dit semester aan bod komen. 
+                        Houd ook rekening met de feedback die je krijgt tijdens de portfolioreviewsessies.</p>
+                </div>
+                
+            <h2>GitLab</h2>
+                    <div class="gitlab">
+                        <p>Versiebeheer portfolio:</p>
+                            <a href="https://git.fhict.nl/I478876/portfoliotalitha" target=_blank>
+                                <div class="containerGitlab">
+                                    <img src="photos/gitlab.png" class="image">
+                                        <div class="overlay">
+                                            <img src="photos/gitlabGeel.png" class="image">
+                                        </div>
+                                </div>
+                            </a>
+                    </div>  
+
+            <h2>Wat heb ik geleerd?</h2>
+                <h3>Lettertype in Safari</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/lettertypeSafari.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>
+                                Bij het openen van mijn portfolio website op een MacBook merkte ik dat het lettertype Shadows Into Light niet zichtbaar was in Safari. 
+                                Om dit op te lossen, voegde ik de eigenschappen 'font-weight' en 'font-style' toe in de CSS, 
+                                omdat Safari aanvullende informatie vereist. Hierdoor is het lettertype nu wel zichtbaar in Safari.</p>
+                        </div>
+                    </div>
+
+                <h3>Dropdown menu</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/dropdownMenuPortfolio.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor het dropdownmenu gebruikte ik W3schools. Ik maakte een list-item met de class 'dropdown' en een a-element voor de 'Design' knop. 
+                                De href is ingesteld op 'javascript:void(0)' om ervoor te zorgen dat er niets gebeurt indien erop geklikt wordt. 
+                                Daarna voegde ik een div toe met de class 'dropdown-content' en twee links naar 'Filmposter' en 'Test'.</p>
+                        </div>
+                    </div>
+                
+                <h3>Hoverline</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/hoverlineHTML.jpg" width="310px">
+                            <img src="photosDevelopment/hoverlineCSS.jpg" width="220px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Wanneer ik met de muis over de knoppen ging, verscheen er een gele streep onder. 
+                                Dit gebeurde doordat ik een algemene stijl had toegepast op de tekst in de navigatiebalk, 
+                                waardoor er een gele streep verscheen. Door '.navbar' ervoor te zetten, 
+                                werd deze code alleen toegepast op de navigatiebalk.
+                            </p>
+                        </div>
+                    </div>
+
+                <h3>Tekst in lijn</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/tekstInLijn1.jpg" width="250px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor het creëren van een lijn met tekst gebruikte ik deze code. 
+                                Ik heb de margin aangepast naar mijn voorkeur. De eerste margin is ingesteld op "auto" om ervoor te zorgen 
+                                dat de lijn in het midden van de tekst wordt geplaatst. 
+                                Deze code resulteert in extra ruimte tussen de lijn en de zijkant, waardoor de uitlijning niet meer correct is.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/tekstInLijn.jpg" width="250px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Om dit op te lossen, voegde ik margin toe met "::". 
+                                Ik voegde 10px margin toe aan de rechterkant van de lijn voor de h2 en 10px margin aan de linkerkant van de lijn na de h2. 
+                                Zo ontstaat er ruimte tussen de lijn en de tekst zonder extra afstand toe te voegen tussen de zijkant en de lijn.</p>
+                        </div>
+                    </div>
+
+                <h3>Button in lijn</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/buttonInLijn.jpg" width="550px">
+                            <img src="photosDevelopment/buttonInLijnHTML.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Toen ik de knop 'Open PDF' toevoegde met de stijl 'float: right', werd deze in de lijn weergegeven. 
+                                Om dit probleem op te lossen, heb ik een extra div toegevoegd, waardoor de PDF-knop boven de lijn komt te staan. 
+                                    Door de CSS-eigenschap 'text-align: right' toe te voegen, 
+                                wordt de knop aan de rechterkant van de pagina geplaatst.</p>
+                        </div>
+                    </div>
+
+                <h3>Positioneren afbeelding en tekst</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/positioneringHTML.jpg" width="550px">
+                            <img src="photosDevelopment/positioneringCSS.jpg" width="150px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb geprobeerd om op verschillende manieren de afbeeldingen en de tekst te positioneren. Omdat ik hier moeite mee had, 
+                                heb ik hulp gevraagd aan de docent. Hij gaf me de tip om de afbeeldingen en de tekst beide op 50% te schalen nadat 
+                                ik deze op totaal 100% had ingesteld. 
+                                Op deze manier creëer ik een consistente positionering voor de hele website, waardoor alles dezelfde uitstraling heeft.</p>
+                        </div>
+                    </div>
+                
+                <h3>Overlay</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/overlayPortfolio.jpg" width="350px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Om een hover-effect op de LinkedIn en GitLab logo's toe te passen, gebruik ik een 'containerSocialmedia' 
+                                div met een wit logo en een overlappende 'overlay' div met een geel logo. Beide afbeeldingen hebben de class 'image'. 
+                                De 'containerSocialmedia' div heeft een grootte van 40x40px en de afbeeldingen vullen de volledige div.
+                                De 'overlay' afbeelding is onzichtbaar door 'opacity' op 0 in te stellen.
+                                De regel '.containerSocialmedia:hover .overlay { opacity: 1; }' zorgt ervoor dat wanneer de gebruiker over het 
+                                element met de class 'containerSocialmedia' hovert, de elementen met de class 'overlay' zichtbaar wordt.</p>
+                        </div>
+                    </div>
+
+                <h3>Slideshow</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/slideshow.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De slideshow bestaat uit afbeeldingen binnen een div met class 'slideshow-container'.
+                                 Door middel van pijltjes en bolletjes kan genavigeerd worden tussen de slides.De functies 'plusSlides' 
+                                 en 'currentSlide' veranderen de slide-index en tonen de bijbehorende afbeelding. 
+                                De bolletjes veranderen van kleur door middel van de dot active class.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/slideshowMeerdere.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p><b>Meerdere slideshows</b></p>
+                            <p>Nadat ik meerdere slideshows aan de website had toegevoegd, merkte ik dat ik deze niet onafhankelijk van elkaar kon gebruiken. 
+                                Om dit te verhelpen, heb ik de code van de slideshow aangepast.</p>
+                            <p>De slideshow kan onafhankelijk worden gebruikt zonder slideIndex. De functie 'slideshow' haalt de HTML-elementen met de 
+                                class 'slideshow-container' op en slaat ze op in 'parents'. De elementen met de class 'mySlides' en 'dot' worden toegewezen 
+                                aan 'slides' en 'dots'. De eerste afbeelding en dot worden gemarkeerd als actief.</p>
+                            <p>De code is aangepast om de dots zonder slideIndex te laten werken. De elementen met de class dot wordt opgeslagen in 'dots'. 
+                                Een loop voegt een klikfunctie toe aan elk element. Deze functie haalt de bijbehorende slides op en doorloopt ze. 
+                                De class 'active' en 'active-slide' worden verwijderd van de children-elementen van de geselecteerde dot. 
+                                Vervolgens wordt 'active' toegevoegd aan de dot en 'active-slide' aan de bijbehorende slide.</p>
+                            <p>Elke link heeft een 'onclick' functie. 'current' wordt ingesteld als het ouder-element. 'slides' en 'dots' bevatten 
+                                respectievelijk de slides en dots binnen de ouder-container. 'curr_slide' en 'curr_dot' bevatten de huidige slide en dot, 
+                                waarvan de classes active worden verwijderd. De functies 'prev' en 'next' zijn aangepast voor de slideshow. 
+                                'links' bevat geselecteerde elementen, 'current' verwijst naar het ouder-element. 'slides' en 'dots' bevatten 
+                                respectievelijk de slides en dots. 'curr_slide' en 'curr_dot' bevatten de huidige actieve elementen, bij deze 
+                                elementen wordt de active class verwijderd. Bij 'next' wordt gecontroleerd of het volgende sibling-element. 
+                                ‘mySlides’ bevat. Als dit het geval is wordt de class active toegevoegd aan dit element, anders worden de 
+                                class active ingesteld op het eerste element. Bij 'prev' wordt gecontroleerd of het vorige sibling-element. 
+                                ‘mySlides’ bevat. Als dit het geval is wordt de class active toegevoegd aan dit element, anders wordt de class 
+                                active ingesteld op het laatste element.</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/slideshowGroottes.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p><b>Verschillende groottes</b></p>
+                            <p>De code werkte niet voor 'slideshow-containerPortfolio' omdat getElementsByClassName slechts één argument accepteert. 
+                                Voor het selecteren van meerdere elementen met verschillende classnamen, moet querySelectorAll worden gebruikt 
+                                met een selector die alle gewenste classnamen bevat. 
+                                De next- en prev-functionaliteit werkten niet, omdat alleen de eerste selector werd geselecteerd. 
+                                Om zowel .slideshow-container als .slideshow-containerPortfolio te selecteren, 
+                                moest ik de selector wijzigen van '.slideshow-container a', '.slideshow-containerPortfolio a' 
+                                naar '.slideshow-container a, .slideshow-containerPortfolio a'.</p>
+                        </div>
+                    </div>
+
+                <h3>Filterfunctie buttons</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/filterfunctieButtonsVersie1.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op de homepagina heb ik buttons gemaakt voor elk leerdoel.
+                                Door het gebruik van href="" ontstonden er streepjes tussen de buttons.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/filterfunctieButtonsVersie2.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Door de ONCLICK-functie verdwenen de strepen tussen de buttons, maar verplaatsten de andere buttons zich 
+                                onder de tekst 'text to be shown and hidden'. De functie ShowAndHide() laat het element met de id 
+                                'SectionName' zichtbaar zijn als het verborgen is en onzichtbaar zijn als het al zichtbaar is. 
+                                Hierdoor kan met een klik op een knop de weergave van het element worden gewijzigd.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/filterfunctieButtonsVersie3.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De 'filterSelection' functie toont/verbergt verschillende div-elementen op basis van de geselecteerde button. 
+                                Het haalt alle 'filterDiv' elementen op en voegt/verwijdert de class 'show' afhankelijk van de overeenkomst 
+                                met de geselecteerde leerdoelen.</p>
+                            <p>De 'AddClass' functie voegt een specifieke klasse toe aan een element door de huidige klassen te splitsen en 
+                                de nieuwe klasse toe te voegen als deze nog niet aanwezig is.</p>
+                            <p>De 'RemoveClass' functie verwijdert een specifieke klasse van een element door de klassen op te splitsen, 
+                                de specifieke klasse te vinden en te verwijderen, 
+                                en de overgebleven klassen toe te wijzen aan de 'className' eigenschap van het element.</p>
+                            <p>De code selecteert de knoppen met de class 'buttonLeerdoelen' binnen 'myBtnContainer' en voegt een click-functie toe. 
+                                Bij elke klik wordt de bestaande 'active' klasse verwijderd en de 'active' klasse wordt toegevoegd aan de geklikte knop. 
+                                Dit gebeurt door '+= 'active'' aan de huidige klassen van de knop toe te voegen.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/filterfunctieButtonsVersie4.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De buttons zijn aangepast zodat er tekst verschijnt in plaats van buttons. 
+                                Daarnaast is een scrollToTop()-functie toegevoegd, waardoor gebruikers automatisch naar de bovenkant van de pagina worden gescrold.
+                                De window.scrollTo-methode maakt het mogelijk om naar een specifieke positie op de pagina te scrollen. 
+                                Door de parameter van scrollTo op top 0 in te stellen, wordt er naar de bovenkant van de pagina gescrold. 
+                                De behavior smooth zorgt ervoor dat er vloeiend door de pagina wordt gescrold.</p>
+                        </div>
+                    </div>
+
+                <h3>Animatie effecten</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/animatieEffectHeartbeat.jpg" width="250px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb een 'heartbeat' effect toegepast op de 'Buttons Leerdoelen'. 
+                                De 'animation' eigenschap speelt de 'leeruitkomst' animatie gedurende 1,5 seconde af, 
+                                met 'infinite' herhaling. In '@keyframes leeruitkomst' worden de stappen van de animatie beschreven, 
+                                waarbij het element van scale 1 naar scale 1.4 groeit en weer terugkeert. 
+                                Met '.leeruitkomst:hover' wordt de animatie alleen afgespeeld wanneer de muis erover beweegt.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/animatieEffectSkatefoto.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De skatefoto komt bij het openen van de 'over mij' pagina vanaf links in beeld. 
+                                De animatie duurt 5 seconden met een vertraging van 0.5 seconden en een vloeiende overgang ("ease" timing-functie). 
+                                De animatie speelt slechts één keer af en behoudt de eindpositie met behulp van de "forwards" optie. 
+                                De afbeelding wordt 350 pixels naar links verschoven bij het starten van de animatie met "transform: translateX(-350px);".</p>
+                            <p>De '@keyframes slide-in' regel beschrijft de veranderingen tijdens de animatie. De afbeelding begint op de startpositie 
+                                en eindigt op de uiteindelijke positie met 'transform: translateX(0)' waarbij de afbeelding niet meer verschoven is. 
+                                De 'opacity' eigenschap blijft ongewijzigd en behoudt de standaardwaarde van 1 (volledig zichtbaar).</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/animatieEffectTekst.jpg" width="250px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>
+                                Bij het openen van de 'over mij' pagina wordt de tekst langzaam zichtbaar. De animatie genaamd 'fadeIn' 
+                                wordt toegevoegd aan de .aboutText class en duurt 10 seconden. De animatie begint met een opacity van 0% 
+                                en eindigt met een opacity van 100%, 
+                                waardoor het element geleidelijk van onzichtbaar naar volledig zichtbaar overgaat in 10 seconden.</p>
+                        </div>
+                    </div>
+
+                    <div class="pdfButtonContainer">
+                        <div class="tekstPdfButton">
+                            <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                        </div>
+                        <a href="documentation/developmentPortfolio.pdf" target="_blank">
+                            <button class="pdfButton">Open PDF<br>Development portfolio</button>
+                        </a>
+                    </div>
+        </div>
+
+
+        <div class="filterDiv oefeningen">
+            <h2>Kattenklikker</h2>
+                <h3>Opdrachtomschrijving</h3>
+                    <div class="widthFifty">
+                        <p>Als student ICT en Media kom ik in aanraking met Javascript. 
+                            Deze oefeningen zijn bedoeld om te leren werken met het click-event en de random functie. 
+                            Het click-event in combinatie met id/class is belangrijk omdat er op deze manier geen onClick-event 
+                            toegevoegd hoeft te worden in het HTML-bestand. De random functie is belangrijk omdat er een willekeurig 
+                            element getoond kan worden.</p>
+                    </div>
+
+                <h3>GitLab</h3>
+                    <div class="gitlab">
+                        <p>Versiebeheer kattenklikker:</p>
+                            <a href="https://git.fhict.nl/I478876/oefenen" target=_blank>
+                                <div class="containerGitlab">
+                                    <img src="photos/gitlab.png" class="image">
+                                        <div class="overlay">
+                                            <img src="photos/gitlabGeel.png" class="image">
+                                        </div>
+                                </div>
+                            </a>
+                    </div>  
+
+                <h3>Wat heb ik geleerd?</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/defer.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De ‘defer’ in het script-element, wordt gebruikt om aan te geven dat het uitvoeren 
+                                van het script moet worden uitgesteld totdat de HTML-verwerking is voltooid.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/innerHtml.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De eerste twee regels zoeken specifieke HTML-elementen ('el' en 'blok') met behulp van 'document.getElementById'. 
+                                De derde regel voegt een event listener toe aan 'el' gekoppeld aan de functie 'modifyText'. 
+                                Bij het klikken op de knop wordt "Hallo" toegevoegd aan blok.innerHTML.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/newP.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>In de functie modifyText wordt eerst een nieuw 'p'-element ('newP') aangemaakt. 
+                                Vervolgens wordt een tekstNode met de inhoud "Hallo" ('newContent') toegevoegd aan 'newP'. 
+                                Ten slotte wordt 'newP' toegevoegd aan een bestaand HTML-element met de naam "blok". 
+                                Bij elke klik op de knop verschijnt het woord "Hallo" in een nieuwe paragraaf. </p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <video src="videos/kattenklikkerClickEvent.mp4" width="450px" controls muted></video>
+                        </div>
+                        <div class="widthFifty">
+                            <p><span>Elke keer als er op de button wordt geklikt, komt er een afbeelding van de kat bij.</span></p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/kattenklikkerClickEvent.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Om bovenstaande video te maken heb ik deze code gebruikt.
+                                Deze code maakt een 'Image'-object genaamd 'myImage' aan met een afmeting van 100x100 pixels. Het laadt de afbeelding "kat.jpg" 
+                                door de bron (src) van 'myImage' in te stellen. Vervolgens wordt 'myImage' toegevoegd aan het einde van het 'body'-element van 
+                                de webpagina met behulp van 'appendChild'. 
+                                Dit zorgt ervoor dat de afbeelding op de pagina wordt weergegeven.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <video src="videos/kattenklikkerRandomWoord.mp4" width="450px" controls muted></video>
+                        </div>
+                        <div class="widthFifty">
+                            <p><span>Elke keer als er op de button wordt geklikt, komt een random woord (dier) tevoorschijn.</span></p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/kattenklikkerRandomWoord.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>
+                                De code bevat een 'animals' array met vijf dieren. Er worden twee variabelen gemaakt: 'button' voor het HTML-element 
+                                met id "random-button" en 'result' voor het HTML-element met id "result". Een event listener wordt toegevoegd aan 'button' 
+                                met 'addEventListener', die de meegegeven functie uitvoert bij een klik. Bij elke klik wordt een willekeurig dier uit 
+                                de 'animals' array gekozen met behulp van 'randomWord'. 
+                                De zin "Het willekeurige woord is: " gevolgd door het gekozen dier wordt weergegeven in het 'result'-element op de pagina.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <video src="videos/kattenklikkerRandomAfbeeldingOpGekliktePlek.mp4" width="450px" controls muted></video>
+                        </div>
+                        <div class="widthFifty">
+                            <p><span>Elke keer dat er op de pagina wordt geklikt, wordt er een willekeurige afbeelding weergegeven op de klikpositie.</span></p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/kattenklikkerKlikpositie.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De code maakt een nieuw 'Image'-object genaamd 'img' van 200x200 pixels. Bij elke klik wordt een willekeurige kat 
+                                gekozen uit een array van drie afbeeldingen. De bron (src) van 'img' wordt ingesteld op de gekozen afbeelding. 
+                                Vervolgens worden CSS-stijlen (position, top en left) toegepast op 'img', waardoor het absoluut gepositioneerd wordt 
+                                op de x- en y-coördinaten van de klik (event.pageX en event.pageY). Ten slotte wordt 'img' toegevoegd aan het 'body'-element 
+                                van de webpagina met 'appendChild'. Hierdoor wordt de afbeelding weergegeven op de geklikte positie.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <video src="videos/kattenklikkerRandomAfbeeldingEnPlek.mp4" width="450px" controls muted></video>
+                        </div>
+                        <div class="widthFifty">
+                            <p><span>Er wordt bij elke klik op de button een willekeurige afbeelding toegevoegd op een willekeurige positie, waarbij de vorige afbeelding wordt vervangen.</span></p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/kattenklikkerRandomKatEnPlek.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De code past absolute positionering toe op het HTML-element met id "plaatsImg" en gebruikt de variabele 'currentImage'. 
+                                Er is een array 'images' met drie kattenafbeeldingen. De functie 'randomImage' kiest een willekeurige kat uit de 'images'-array 
+                                en maakt een nieuw 'img'-element met behulp van document.createElement("img"). De bron (src) van het 'img'-element wordt ingesteld 
+                                op de gekozen afbeelding. Vervolgens worden willekeurige x- en y-coördinaten berekend binnen het 'plaatsImg'-element, rekening 
+                                houdend met de breedte en hoogte van het 'img'-element. Het 'img'-element wordt op basis van deze coördinaten gepositioneerd. 
+                                Het 'img'-element wordt toegevoegd aan het 'plaatsImg'-element met appendChild. Als er al een 'currentImage' bestaat, wordt 
+                                deze vervangen door het nieuwe 'img'-element. Ten slotte wordt een event listener toegevoegd aan het element met id "random-img". 
+                                Bij een klik op de knop wordt de functie 'randomImage' uitgevoerd.</p>
+                        </div>
+                    </div>
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/kattenklikkerOefening.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>Oefening kattenklikker</button>
+                    </a>
+                </div>
+            
+            <h2>JSON</h2>
+                <h3>Opdrachtomschrijving</h3>
+                    <div class="widthFifty">
+                        <p>Als student ICT en Media kom ik in aanraking met het verzamelen en verwerken van gegevens uit externe bronnen. 
+                            JSON is een veelgebruikt formaat voor het structureren en opslaan van deze gegevens. Deze oefeningen zijn bedoeld 
+                            om te leren werken met JSON. Tijdens de les hebben we uitleg en opdrachten gekregen over het werken met JSON. 
+                            We hebben verschillende voorbeelden behandeld. 
+                            Vanuit deze voorbeelden was het de bedoeling om zelf met JSON een visuele weergave te maken.</p>
+                    </div>
+
+                <h3>GitLab</h3>
+                    <div class="gitlab">
+                        <p>Versiebeheer JSON:</p>
+                            <a href="https://git.fhict.nl/I478876/json-oefening" target=_blank>
+                                <div class="containerGitlab">
+                                    <img src="photos/gitlab.png" class="image">
+                                        <div class="overlay">
+                                            <img src="photos/gitlabGeel.png" class="image">
+                                        </div>
+                                </div>
+                            </a>
+                    </div>
+                  
+                <h3>Wat heb ik geleerd?</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/jsonFile.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>JSON staat voor JavaScript Object Notation. Het is een op JavaScript gebaseerde manier om gegevens over te dragen en op te slaan. 
+                                Om data in een bestand te zetten heb ik een file aangemaakt, genaamd products.json. 
+                                Elk product heeft een unieke id, foto, prijs, kleur en naam gekregen. 
+                                In het HTML-bestand heb ik een div aangemaakt met een id 'productlist'. </p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/jsonVersie1.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De code begint met het selecteren van een HTML-element ('productlist') en slaat dit op in de variabele 'producten'. 
+                                Daarna worden gegevens opgehaald uit het JSON-bestand 'products.json' met behulp van 'fetch'. 
+                                Na het omzetten van de gegevens naar een JavaScript-object met '.json()', 
+                                worden ze verwerkt en beschikbaar gesteld in een tweede 'then'-methode.
+                                De functie 'jsonopscherm' accepteert de parameter 'data' en voert een loop uit over elk element in de 'data'-array. 
+                                Voor elk element wordt de naam afgedrukt naar de console en worden de naam, afbeelding en prijs toegevoegd aan 
+                                het HTML-element met de id 'producten'. Dit resulteert in een lijst van namen, afbeeldingen en prijzen op een webpagina.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/jsonVersie2.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb de code ingekort door de regel: producten.innerHTML += "li" + element.name + "img src='" + element.picture + "'" + element.price + "/li".
+                                Door "img src='" + element.picture + "'/” te gebruiken wordt de afbeelding op de pagina getoond in plaats van de naam van de afbeelding. </p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/jsonVersie3.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor elk element wordt een nieuwe div met de className 'product-box' gemaakt en toegewezen aan de variabele 'productBox'. 
+                                Vervolgens wordt de innerHTML van productBox gebruikt om HTML-inhoud te genereren.
+                                Met template literals (`) worden de huidige elementen ingevuld in het productBox.innerHTML-template. 
+                                De gegevens van het huidige element, zoals naam (element.name), afbeelding (element.picture) 
+                                en prijs (element.price), worden ingevuld. 
+                                Tot slot wordt productBox toegevoegd aan de producten-container met behulp van appendChild().</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/jsonResultaat.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De HTML-elementen productlist, product-box, h2, img en p hebben een CSS opmaak gekregen. 
+                                Dit is hiervan het resultaat.</p>
+                        </div>
+                    </div>
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/jsonOefening.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>Oefening JSON</button>
+                    </a>
+                </div>
+
+        </div>
+
+
+        <div class="filterDiv brandaBand">
+            <h2>Opdrachtomschrijving brand a band</h2>
+            <div class="opdrachtomschrijving">
+                <p>Ontwikkel voor een artiest (Oumy of Sjors) een huisstijl die naadloos aansluit bij de artiest en zijn/haar muziekstijl. 
+                    Dit wordt vastgelegd in een brandguide. Daarnaast ga je aan de slag met het ontwikkelen van een mediastrategie. 
+                    Wat moet een artiest doen op bepaalde social media en streamingplatforms, maar mogelijk zijn er ook nog andere manieren te bedenken. 
+                    Daarnaast ga je een aantal middelen uitwerken waarbij de mediastrategie wordt toegepast. 
+                    Dit alles gebeurt in goed overleg met de artiest.</p>
+            </div>
+
+            <h2>GitLab</h2>
+                    <div class="gitlab">
+                        <p>Versiebeheer website Oumy:</p>
+                            <a href="https://git.fhict.nl/I478876/websiteoumy" target=_blank>
+                                <div class="containerGitlab">
+                                    <img src="photos/gitlab.png" class="image">
+                                        <div class="overlay">
+                                            <img src="photos/gitlabGeel.png" class="image">
+                                        </div>
+                                </div>
+                            </a>
+                    </div>
+            
+            <h2>Wat heb ik geleerd?</h2> 
+                <h3>Max-witdh</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/maxWidth.jpg" width="250px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De docent adviseerde me om 'max-width' te gebruiken, en heeft mij erbij geholpen. 
+                                Met 'max-width: 1280px' wordt de maximale breedte van het element beperkt tot 1280 pixels, 
+                                zodat het niet breder wordt. Met 'margin: 0 auto' wordt het horizontaal gecentreerd. 
+                                Daarnaast wordt 'padding' gebruikt om de ruimte binnen het element te definiëren.</p>
+                        </div>
+                    </div>
+
+                <h3>One page</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/onepage1.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>About en contact staan beide op de homepagina.
+                                Voor een one-page website heb ik sections gebruikt met verschillende classes. 
+                                Elke section heeft een id gekregen, zodat er via de navigatiebalk gescrold wordt naar de section.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/onepage2.jpg" width="350px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op de homepagina heb ik in de navigatiebalk gebruikgemaakt van een href met '#sectienaam', waarbij 'sectienaam' verwijst naar de id van de section.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/onepage3.jpg" width="350px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Op de andere pagina's heb ik in de navigatiebalk gebruikgemaakt van een href met 'index.html#sectienaam', 
+                                waarbij 'sectienaam' verwijst naar de id van de section. 
+                                Hierdoor wordt er op de homepagina direct naar de betreffende sectie gescrold.</p>
+                        </div>
+                    </div>
+
+                <h3>Scroll to top</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/scrollToTop1.jpg" width="300px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De functie scrollToTop gebruikt window.scrollTo om naar de bovenkant van de pagina te scrollen. 
+                                De parameters worden ingesteld op 0 horizontaal en 0 verticaal om helemaal naar de bovenkant te scrollen.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/scrollToTop2.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Deze regel code zoekt naar een HTML-element met de id "scrollToTopBtn" en slaat dit element op in de variabele "scrollToTopBtn". </p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/scrollToTop3.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Deze regel code voegt een "click"-EventListener toe aan het element dat is opgeslagen in de variabele "scrollToTopBtn". 
+                                Dit betekent dat wanneer er op dat element wordt geklikt, een bepaalde functie genaamd "scrollToTop" wordt uitgevoerd.</p>
+                        </div>
+                    </div>
+
+                <h3>Vertaalfunctie</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/vertaalfunctie1.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Om de scheiding tussen HTML en JavaScript te verbeteren, heb ik de onclick verwijderd en id's aan de afbeeldingen toegevoegd.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/vertaalfunctie2.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De Nederlandse en Engelse tekst worden niet op dezelfde positie weergegeven vanwege een column-gap van 10% die ervoor zorgt dat 
+                                de kolom bij de Engelse versie naar links verspringt. Om dit op te lossen, heb ik de column-gap verwijderd en de 'margin' en 
+                                'padding' aangepast voor de juiste uitlijning. Daarnaast heb ik een margin aan de foto van Oumy toegevoegd om de tekst naar 
+                                links te verschuiven.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/vertaalfunctie3.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De "setLanguage" functie maakt een cookie aan om de taalkeuze van de gebruiker op te slaan. 
+                                Deze cookie wordt opgeslagen in de browser door path=/ en is beschikbaar op de hele website.
+                                De "updateContent" functie past de webpagina aan op basis van de geselecteerde taal. 
+                                Het haalt een element op met een specifieke id door document.getElementById en voegt een click-event toe. 
+                                Bij een klik wordt het standaardgedrag gestopt om het volgen van een link en het laden van een nieuwe pagina te voorkomen. 
+                                Vervolgens wordt de "setLanguage" functie met de opgegeven waarden aangeroepen.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/vertaalfunctie4.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Bij updateContent() wordt de huidige taal uit de cookie gehaald door getLanguageFromCookie(). 
+                                Elementen met de taal-class worden opgeslagen als 'elements' en zichtbaar gemaakt door de 
+                                display in te stellen op 'block'. Nieuwe elementen worden geselecteerd met 
+                                document.getElementsByClassName(language === 'nl' ? 'en' : 'nl'). 
+                                Afhankelijk van de huidige taal worden elementen met de class 'en' of 'nl' opgeslagen 
+                                in 'elements' en verborgen door de display in te stellen op 'none'.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/vertaalfunctie5.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>
+                                getLanguageFromCookie haalt de cookie-informatie op en splitst deze op basis van '; ' om een array van cookies te verkrijgen. 
+                                Elk cookie wordt verder gesplitst met '=' om de naam en waarde te verkrijgen. In een loop wordt gecontroleerd of de naam 
+                                overeenkomt met 'language'. Als dat zo is, wordt de waarde geretourneerd. 
+                                Anders wordt standaard 'nl' geretourneerd als er geen overeenkomstig cookie wordt gevonden.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/vertaalfunctie6.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>
+                                Bij het laden van de pagina wordt automatisch de functie updateContent() geactiveerd, 
+                                waardoor de geselecteerde taal direct zichtbaar is bij navigeren of herbezoeken.</p>
+                        </div>
+                    </div>
+
+                <h3>Events</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/event1.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik vond het lastig om een eventblok te maken met deze opmaak.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/event2.jpg" width="200px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik gebruikte de CSS-regel "position: absolute" om de afbeelding aan de linkerkant van de div te plaatsen. 
+                                Met "top: 0" en "left: 0" wordt de afbeelding helemaal linksboven in de div geplaatst. 
+                                "Height: 100%" zorgt voor een volledige hoogte zonder witruimte, 
+                                terwijl "Width: auto" de oorspronkelijke verhouding van de afbeelding behoudt.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/event3.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Om de informatie in het midden van de div weer te geven, is er een "info" div toegevoegd. 
+                                De "top" eigenschap is ingesteld op 50% om de informatie verticaal in het midden te plaatsen. 
+                                Met behulp van "transform" wordt de informatie op 50% van de hoogte gepositioneerd, 
+                                waardoor er gelijke ruimte boven en onder ontstaat.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/event4.jpg" width="200px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Tot slot is er een "buttonEventsPosition" div toegevoegd, 
+                                met de bottom- en right-waarden ingesteld op 0 om deze rechtsonder te plaatsen. 
+                                Deze div bevat de buttons met de class "buttonEvents".</p>
+                        </div>
+                    </div>
+
+                <h3>Contactformulier</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/contactformulier1.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor het contactformulier heb ik gekozen voor Javascript in plaats van PHP. 
+                                Ik wilde mijn JavaScript vaardigheden verbeteren.
+                                Ik wilde tijdens de presentatie laten zien dat het contactformulier met JavaScript leek te werken.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/contactformulier2.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Het contactformulier met het id 'contact-form' gebruikt de POST-methode om gegevens te verzenden. 
+                                Het "text"-type wordt gebruikt voor tekstuele gegevens, "email"-type voor e-mailadressen en 
+                                "submit"-type om het formulier te verzenden naar de server.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/contactformulier3.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De code selecteert het formulier met het id "contact-form" en voegt een "submit"-EventListener toe. 
+                                Wanneer het formulier wordt ingediend, wordt de functie "validateForm()" uitgevoerd om het formulier te controleren. 
+                                Als het formulier geldig is, wordt de functie "processForm()" opgeroepen om het formulier te verwerken.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/contactformulier4.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De code controleert of het formulier geldige gegevens bevat. Het valideert twee velden: de naam en het e-mailadres. 
+                                Voor de naam wordt gecontroleerd of het veld is ingevuld. Voor het e-mailadres wordt gecontroleerd of het veld niet 
+                                leeg is en voldoet aan een bepaald patroon. 
+                                Aan het einde wordt een booleanwaarde teruggegeven die aangeeft of het formulier geldig is of niet.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/contactformulier5.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Deze functie voert een actie uit nadat het formulier succesvol is ingediend. 
+                                Het toont een pop-up bericht met de tekst "Bedankt voor je aanmelding! Thank you for your registration!".</p>
+                        </div>
+                    </div>
+
+                <h3>Video YouTube</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/videoYouTube.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Via YouTube kun je de code krijgen om een YouTube video in te sluiten op je eigen website. 
+                                De width en height heb ik aangepast naar mijn gewenste grootte, hierbij heb ik rekening gehouden met de verhouding van de video. </p>
+                        </div>
+                    </div>
+
+                <h3>Klikbare afbeelding</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/klikbareAfbeelding.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Deze code opent een vergrote versie van een afbeelding wanneer erop wordt geklikt. 
+                                "afbeeldingen" selecteert alle afbeeldingselementen in "containerPhotoPage". 
+                                "modaal" verwijst naar het pop-upvenster. "vergroteAfbeelding" en "sluitknop" zijn de elementen binnen het venster. 
+                                Een klikgebeurtenis wordt toegevoegd aan elke afbeelding, waarbij het venster wordt getoond en de vergrote afbeelding wordt ingesteld. 
+                                De sluitknop heeft ook een klikgebeurtenis die het venster verbergt.</p>
+                        </div>
+                    </div>
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/developmentBrandABand.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>Development brand a band</button>
+                    </a>
+                </div>
+        </div>
+
+
+        <div class="filterDiv mediaDevelopment">
+            <h2>Opdrachtomschrijving media development</h2>
+                <div class="opdrachtomschrijving">
+                    <p>Deze development opdracht heeft twee delen: het omzetten van jouw design naar code (mobile first) en het ontwikkelen van een 
+                        Easter egg die past bij de doelgroep. Om de Easter egg te kunnen implementeren, 
+                        moet je de nieuwe opzet van de Weldas-website ontwikkelen gebaseerd op het grafisch en interactie ontwerp van de vorige opdracht.</p>
+                    <p>Voor het mobile first aspect kun je eenvoudig Devtools in je browser gebruiken om de gewenste telefoonbreedte te selecteren. 
+                        Schrijf media queries voor desktop elementen die aanpassingen nodig hebben. 
+                        Bedenk een verborgen functionaliteit en ontwikkel een werkend proof of concept.</p>
+                </div>
+
+            <h2>GitLab</h2>
+                <div class="widthRowFull">
+                    <div class="widthFifty">
+                        <div class="gitlabMediaDevelopment">
+                            <p>Versiebeheer website Weldas:</p>
+                                <a href="https://git.fhict.nl/I514890/easteregg" target=_blank>
+                                    <div class="containerGitlab">
+                                        <img src="photos/gitlab.png" class="image">
+                                            <div class="overlay">
+                                                <img src="photos/gitlabGeel.png" class="image">
+                                            </div>
+                                    </div>
+                                </a>
+                        </div>
+                    </div>
+                    <div class="widthFifty">
+                        <p>Tijdens dit project hebben we met drie personen samengewerkt in GitLab. Aangezien geen van ons drieën eerder had samengewerkt in GitLab, 
+                            moesten we ons hier eerst in verdiepen. We hadden een aantal keer merge-conflicten, maar deze hebben we opgelost door goed naar de 
+                            code te kijken en te bepalen welke bewaard moest worden. Om eventuele problemen te voorkomen, heb ik mijn eigen code apart in een 
+                            aparte GitLab-repository geplaatst, zodat ik altijd een back-up van mijn code zou hebben. 
+                            Het werken met branches heb ik geprobeerd, maar ik vond dit nog lastig omdat het uploaden ervan niet soepel verliep.</p>
+                    </div>
+            </div>
+
+            <h2>Wat heb ik geleerd?</h2>
+                <h3>Mobiele navigatiebalk</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/navigatiebalkWeldas1.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor het maken van de navigatiebalk heb ik een YouTube video gevolgd. Echter verschilde mijn navigatiebalk van die in de video. 
+                                In plaats van een kruisje had ik een streepje en de elementen in de navigatiebalk stonden naast elkaar in plaats van onder elkaar.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/navigatiebalkWeldas2.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Mijn hamburgermenu veranderde in een schuine streep bij het uitklappen, omdat ik was vergeten om een minteken voor de 45 graden te plaatsen.
+                                Door het minteken toe te voegen (-45deg), werd het een kruisje.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/navigatiebalkWeldas3.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>In eerste instantie had ik alle links in één class-element (nav-item) geplaatst. Hierdoor werden de links naast elkaar weergegeven in plaats van onder elkaar. 
+                                Door elke link in een eigen class ‘nav-item’ element te plaatsen, werden de links wel onder elkaar weergegeven.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/navigatiebalkWeldas4.jpg" width="300px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Om de witruimte tussen de gele balk en het blauwe vlak te verwijderen, heb ik de 'top' eigenschap aangepast naar 54px. 
+                                Met 'align-items: flex-start' worden de flexbox-items aan de linkerkant van de container uitgelijnd. 
+                                Om de navigatie-items onder het logo uit te lijnen, heb ik de CSS aangepast. Ik heb 'left: 0' ingesteld om de items aan de linkerkant te plaatsen. Daarnaast heb ik 'display: flex' gebruikt voor flexbox-layout en flexibele positionering. 
+                                De 'padding' is ingesteld op 0 voor de boven- en onderkant, en 24px voor de linker- en rechterkant.</p>
+                        </div>
+                    </div>
+
+
+
+                <h3>Responsive website</h3>
+                    <div class="widthFifty">
+                        <p>Ik heb @media-query's gebruikt om de website responsief te maken met breakpoints op 849px en 1114px. 
+                            Deze heb ik gekozen tijdens het programmeren van de navigatiebalk, 
+                            maar bleken uiteindelijk niet optimaal voor de toegevoegde elementen op de Listerpage. 
+                            In de toekomst wil ik meerdere breakpoints gebruiken en de meest gebruikte breakpoints onderzoeken.</p>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/responsiveWeldas2.jpg" width="300px">
+                            <img src="photosDevelopment/responsiveWeldas1.jpg" width="200px">
+                            
+                        </div>
+                        <div class="widthFifty">
+                            <p>@media (max-width: 849px) is een mediaquery die specifieke stijlen toepast wanneer het schermformaat kleiner is dan of gelijk is aan 849 pixels.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/responsiveWeldas3.jpg" width="300px">
+                            <img src="photosDevelopment/responsiveWeldas4.jpg" width="300px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>@media (min-width: 849px) and (max-width: 1114px) is een mediaquery die specifieke stijlen toepast wanneer het schermformaat tussen 849 pixels en 1114 pixels ligt.
+                                Helaas zijn de afbeelding van de persoon en de grijze handschoenen te groot, waardoor deze buiten de opmaak vallen en de lay-out niet meer optimaal is bij deze breakpoints. 
+                                De optimale opmaak treedt pas in op bij een schermformaat van 1100px of groter. Indien ik de afbeeldingen kleiner zou maken, kan ik wel gebruik maken van een lagere breakpoint. 
+                                </p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/responsiveWeldas5.jpg" width="300px">
+                            <img src="photosDevelopment/responsiveWeldas6.jpg" width="300px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>@media (min-width: 1114px) is een mediaquery die specifieke stijlen toepast wanneer het schermformaat groter is dan of gelijk is aan 1114 pixels.
+                                Helaas staat aanvullende informatie onder elkaar in plaats van naast elkaar, en is de juiste CSS-opmaak voor de zoekbalk nog niet zichtbaar.
+                                De optimale opmaak treedt pas in bij een schermformaat van 1230px of groter.
+                                </p>
+                        </div>
+                    </div>
+
+                <h3>Konami code</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/konamicode1.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De illustratie opende in een nieuw tabblad als 'weldas' werd getypt. 
+                                Na feedback van de docent heb ik dit aangepast omdat het mogelijk resulteerde in het sluiten van de gehele website (zie pop-up).</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/konamicode2.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De code bevat een functie genaamd easterEgg die controleert of een geheime code wordt ingevoerd. 
+                                Bij een overeenkomst met de code wordt een nieuwe webpagina geopend.
+                                 De code maakt gebruik van de komani-array met de karakters 'w', 'e', 'l', 'd', 'a' en 's'. 
+                                De variabele "current" houdt de positie bij tijdens het invoeren van de code, 
+                                die begint bij 0.  Als de ingedrukte toets overeenkomt met het huidige karakter in de code, wordt de current-variabele verhoogd met 1. 
+                                Als dit niet het geval is, wordt de current-variabele teruggezet naar 0 en wordt de functie vroegtijdig beëindigd. 
+                                De functie wordt geactiveerd bij het indrukken van toetsen op de webpagina.</p>
+                        </div>
+                    </div>
+
+                <h3>Pop-up</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/popup1.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb de feedback verwerkt door de illustratie te laten openen in een pop-up. 
+                                Hierdoor is duidelijk te zien dat de pop-up kan worden gesloten, en is er dus minder kans dat de gehele website wordt afgesloten.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/popup2.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Als de volledige code correct is ingevoerd, wordt de functie openPopup() aangeroepen om een pop-upvenster te openen. 
+                                Deze functie selecteert de elementen met de classe 'popup' en zet deze op active. 
+                                Ook worden de elementen met de classe 'overlay' geselecteerd en wordt de stijl ‘display: block' toegevoegd om deze 
+                                zichtbaar te maken. De closePopup() functie selecteert ook de elementen met dezelfde 
+                                classes en haalt ‘active’ weg en zet de overlay op ‘display: none' om het pop-upvenster te verbergen. Daarnaast wordt er een eventListener 
+                                toegevoegd aan een element met id 'close' om de closePopup() functie uit te voeren wanneer erop wordt geklikt, 
+                                waardoor het pop-upvenster wordt gesloten.</p>
+                        </div>
+                    </div>
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/developmentMediaDevelopment.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>Media development</button>
+                    </a>
+                </div>
+        </div>
+
+        
+        <div class="filterDiv projectX">
+            <h2>Opdrachtomschrijving project x</h2>
+                <div class="opdrachtomschrijving">
+                    <p>Ik heb een persoonlijke begeleider vanuit Fontys gekozen en mijn plan van aanpak met hem besproken. 
+                        Ik wil diverse producten ontwikkelen voor een yogastudio, waaronder een verbeterd logo, chakra wallpaper, 
+                        visitekaartje, foto's voor de website en optimalisatie van de desktopversie. Ik wil ook onderzoek doen naar 
+                        het design van yoga websites, mobiele website eisen en een user test uitvoeren. Daarnaast wil ik een tarotkaartfunctie 
+                        toevoegen en een mobiele versie van de website maken. Ik zal documentatie bijhouden voor elk product en een 
+                        presentatievideo maken om het proces en de resultaten te tonen op de presentatiedag. 
+                        Het is belangrijk dat hierbij rekening wordt gehouden met de huisstijl van de yogastudio.</p>
+                    <p><b>Een gedetailleerde opdrachtomschrijving, een plan van aanpak en de huisstijl zijn te vinden in het pdf-document.</b></p>
+
+                    <div class="pdfButtonContainer">
+                        <a href="documentation/planVanAanpakProjectX.pdf" target="_blank">
+                            <button class="pdfButton">Open PDF<br>Opdracht project x</button>
+                        </a>
+                    </div>
+                </div>
+
+            <h2>GitLab</h2>
+                <div class="gitlab">
+                    <p>Versiebeheer website yogastudio:</p>
+                        <a href="https://git.fhict.nl/I478876/yogastudio" target=_blank>
+                            <div class="containerGitlab">
+                                <img src="photos/gitlab.png" class="image">
+                                    <div class="overlay">
+                                        <img src="photos/gitlabGeel.png" class="image">
+                                    </div>
+                            </div>
+                        </a>
+                </div>
+
+            <h2>Wat heb ik geleerd?</h2>
+                <h3>Navigatiebalk</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/navigatiebalkJavascript1.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De code begint met het selecteren van de elementen met de classes 'hamburger' en 'nav-menu' en slaat ze op in de variabelen hamburger en navMenu.</p>
+                            <p>Vervolgens wordt er een eventListener toegevoegd aan het hamburger-element voor het 'click'-event. 
+                                De bijbehorende functie voegt de class 'active' toe aan beide elementen als deze nog niet aanwezig is, 
+                                en verwijdert deze class als deze al aanwezig is. 
+                                Hiermee kan het hamburgermenu worden geopend en gesloten door erop te klikken.</p>
+                            <p>Daarna wordt er een eventListener toegevoegd aan elk element met de class 'nav-link' voor het 'click'-event. 
+                                In de functie wordt de class 'active' verwijderd van zowel het hamburger-element als het navMenu-element, 
+                                waardoor het hamburgermenu wordt gesloten wanneer er op een navigatielink wordt geklikt.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/navigatiebalkJavascript2.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb het JavaScript aangepast om te voorkomen dat de navigatiebalk wordt gesloten wanneer er op 'aanbod' of 'social media' wordt geklikt.</p>
+                            <p>Ik heb een eventListener toegevoegd aan een specifiek element met de class 'nav-link' en een 'href'-attribuut met de waarde 'javascript:void(0)'. 
+                                Hiermee wordt het standaardgedrag van de link voorkomen wanneer erop wordt geklikt.</p>
+                            <p>Vervolgens heb ik een eventListener toegevoegd aan alle elementen met de class 'nav-link', behalve degene met een 'href'-attribuut gelijk aan 'javascript:void(0)'. Hiermee wordt de bijbehorende functie uitgevoerd wanneer erop wordt geklikt. 
+                                In deze functie worden de actieve classes van het hamburgericoon en het navigatiemenu verwijderd.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/navigatiebalkJavascript3.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>
+                                De JavaScript-code is aangepast om het submenu uit te klappen. Nu wordt er een algemene eventListener toegevoegd aan alle elementen 
+                                met de class 'nav-link'. In de bijbehorende functie worden enkele stappen uitgevoerd. Het ouder-element van de link wordt opgezocht 
+                                en gecontroleerd of er een submenu-element aanwezig is. Als er een submenu is, wordt het standaardgedrag van de link voorkomen en 
+                                wordt de actieve class van het submenu-element gewijzigd. 
+                                Als er geen submenu is, wordt de class 'active' van de hamburger en navMenu verwijderd.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/checkbocNavigatiebalk.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p> Omdat het niet submenu niet werkte zoals ik wilde heb ik een video gekeken waar het wordt gemaakt door middel van CSS.
+                                Ik heb een checkbox toegevoegd om het hamburgermenu te openen zonder JavaScript te gebruiken. 
+                                Het label waarin de hamburger-div is geplaatst, zorgt ervoor dat het menu zichtbaar wordt wanneer erop geklikt wordt. 
+                                Dit wordt bereikt door de eigenschap 'display' van het navmenu te wijzigen.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/zichtbaarSubmenu.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De code laat het submenu zichtbaar worden wanneer de cursor over een ul li element beweegt (hover) of wanneer erop wordt geklikt (focus-within). 
+                                Dit wordt bereikt door de betreffende ul de eigenschap 'display: initial' te geven.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/resultaatNavigatiebalk.jpg" width="200px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Dit is het uiteindelijke resultaat van alle aanpassingen. 
+                                Een uitgebreid proces is te vinden onderaan de pagina in het pdf-document.</p>
+                        </div>
+                    </div>
+
+                <h3>Animatie hamburgermenu</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <video src="videos/hamburgermenuEffect.mp4" width="250px" controls muted></video>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb een vloeiend overgangseffect gezien bij het hamburgermenu op de mobiele website van de Efteling. 
+                                Ik wilde een vergelijkbaar effect toevoegen aan mijn website.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/animatieHamburgermenu.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb 'ease-in-out' toegevoegd aan de hamburgerclass, 
+                                wat resulteert in een overgangseffect van de streepjes naar een kruisje dat 0.5 seconden duurt.</p>
+                        </div>
+                    </div>
+
+                <h3>Animatie navigatiebalk </h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <video src="videos/fadeInNavbar.mp4" width="250px" controls muted></video>
+                        </div>
+                        <div class="widthFifty">
+                            <p>Om een soepele overgang te creëren bij het uitklappen van de navigatiebalk, heb ik een eenvoudige animatie toegevoegd. 
+                                De volgende keer wil ik een uitgebreide animatie toevoegen voor een beter effect.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/animatieNavigatiebalk.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb een keyframe-animatie 'animationNavbar' gemaakt om de navigatiebalk geleidelijk zichtbaar te maken. 
+                                Deze animatie wordt geactiveerd wanneer de checkbox is aangevinkt, en duurt 1 seconde.</p>
+                        </div>
+                    </div>
+
+                <h3>Homepagina klikbare afbeelding</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/klikbareAfbeeldingen.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De afbeeldingen op de website waren niet responsive op verschillende apparaten, 
+                                waardoor er bij grotere mobiele schermen veel witruimte tussen de afbeeldingen ontstond.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/klikbareAfbeeldingenCSS.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb de afbeeldingsgrootte gewijzigd van pixels naar percentages om ervoor te zorgen dat de afbeeldingen responsive 
+                                zijn op verschillende apparaten. Om ervoor te zorgen dat er ruimte tussen de afbeeldingen is, heb ik een percentagewaarde 
+                                toegevoegd als tussenruimte. 
+                                Hierdoor worden de afbeeldingen nu op een responsive manier weergegeven op verschillende mobiele apparaten.</p>
+                        </div>
+                    </div>
+
+                <h3>Google maps locatie </h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/googleMapsIframe.jpg" width="300px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb een Google Maps iframe toegevoegd aan de website, 
+                                zodat de kaart van de specifieke locatie zichtbaar is.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/googleMapsAPI.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Om de kaart toe te voegen met een zoomfunctie, is dit script nodig. 
+                                'YOUR_API_KEY' in de src moet vervangen worden door een eigen Google Maps API-sleutel. 
+                                Dit script initialiseert de kaart met de opgegeven coördinaten en zoomniveau. 
+                                Een marker wordt toegevoegd aan de kaart op de aangegeven locatie. 
+                                De functie initMap() wordt aangeroepen om de kaart weer te geven.</p>
+                            <p>De API-sleutel kan worden verkregen via de Google Cloud Console, waarvoor een account en een creditcardkoppeling nodig zijn. 
+                                Om deze reden heb ik de API-sleutel niet vervangen en heb ik deze code niet kunnen gebruiken.</p>
+                        </div>
+                    </div>
+
+                <h3>FAQ met grid</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/accordionCSS.jpg" width="350px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Met 'display: grid' wordt het CSS Grid-systeem gebruikt om de elementen te organiseren.
+                                'grid-template-rows: 0fr' definieert een rij met een hoogte van 0fr, waardoor verborgen inhoud geen ruimte inneemt.
+                                Met 'transition: grid-template-rows 500ms' wordt een vloeiend overgangseffect ingesteld voor de hoogte van de rijen.</p>
+                            <p>'aria-hidden=false' geeft de rijen een hoogte van 1fr, waardoor de geopende sectie zich aanpast aan de beschikbare ruimte.</p>
+                            <p>'.accordion-content > div' selecteert directe div-elementen binnen '.accordion-content'.
+                                'overflow: hidden' verbergt overlopende inhoud binnen de div-elementen.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/accordionJavascript1.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De code selecteert het eerste element met de class '.accordion-container' en wijst het toe aan de variabele 'accordion'. 
+                                Daarna voegt het een eventListener toe aan het 'click' event van het 'accordion' element. 
+                                Wanneer er geklikt wordt, wordt de bijbehorende functie uitgevoerd. De functie zoekt het dichtstbijzijnde element met 
+                                de class '.accordion-panel' binnen het geklikte element en wijst het toe aan de variabele 'activePanel'. 
+                                Als er geen overeenkomstig paneel wordt gevonden, wordt de functie vroegtijdig verlaten. 
+                                Anders wordt de functie 'toggleAccordion' opgeroepen met 'activePanel' als argument.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/accordionJavascript2.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De 'toggleAccordion' functie opent of sluit een accordionpaneel. Het knopelement en het bijbehorende paneel worden geselecteerd. 
+                                De waarde van het 'aria-expanded' attribuut van het knopelement wordt opgehaald en opgeslagen in de variabele 'activePanelIsOpened'. 
+                                Als 'activePanelIsOpened' waar is, wordt het paneel als geopend beschouwd en worden de attributen 'aria-expanded' van het 
+                                knopelement en 'aria-hidden' van het paneel aangepast om het paneel te sluiten. Als 'activePanelIsOpened' niet waar is, 
+                                wordt het paneel als gesloten beschouwd en worden de attributen aangepast om het paneel te openen.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/accordionJavascript3.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De code sluit een actief accordionpaneel wanneer er op een nieuw paneel wordt geklikt.
+                                Het 'activePanel' wordt geïnitialiseerd als null. 
+                                Een eventListener wordt toegevoegd aan het 'accordion'-element voor het 'click' event.
+                                Als 'clickedPanel' niet waar is, wordt de functie vroegtijdig verlaten.
+                                Als 'activePanel' gelijk is aan 'clickedPanel', wordt het paneel geopend/gesloten en 'activePanel' wordt weer null.
+                                Als het huidige actieve paneel niet gelijk is aan 'clickedPanel', wordt het actieve paneel gesloten en het nieuwe paneel geopend. 'activePanel' wordt bijgewerkt met het nieuwe paneel.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/accordionPlusMin.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Voor gesloten accordeonpanelen wordt het pseudo-element '::after' van de knop met de class 'accordionButton' en 'aria-expanded="false"' ingesteld op 'content: "+"'. 
+                                Voor geopende accordeonpanelen wordt het pseudo-element '::after' van de knop met de class 'accordionButton' en 'aria-expanded="true"' ingesteld op 'content: "-"'.</p>
+                        </div>
+                    </div>
+
+                <h3>Tarotkaart trekken</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/tarotkaartFunctie1.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Om CSS toe te kunnen passen aan de elementen heb ik deze code gebruikt. De afbeelding is nog niet zichtbaar.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/tarotkaartFunctie2.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb de code aangepast om het probleem op te lossen. Nu wordt de afbeelding weergegeven door het gebruik van een variabele 'afbeeldingURL', die het pad naar de afbeelding combineert met de afbeeldingsnaam.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/tarotkaartFunctie3.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik heb de paragraven aangepast door gebruik te maken van strong-tags om de tekst 'De kaart:' en 'Betekenis:' dikgedrukt weer te geven. </p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/tarotkaartFunctie4.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Ik genereer nu een willekeurige index met behulp van Math.random() en de lengte van de data-array. 
+                                Deze index wordt gebruikt om de geselecteerde kaart op te halen en toe te wijzen aan de variabele selectedCard. 
+                                Zo wordt elke keer dat de pagina wordt geladen een willekeurige kaart weergegeven.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/tarotkaartFunctie5.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De code is aangepast om te reageren op de klik van de knop met de id 'trekKaartButton'. 
+                                Elke klik voegt echter een extra kaart toe, wat resulteert in meerdere kaarten onder elkaar.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/tarotkaartFunctie6.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De container wordt leeggemaakt voordat nieuwe gegevens worden opgehaald, waardoor er altijd maar één kaart zichtbaar is.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/tarotkaartFunctie7.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>selectedCard wordt opgeslagen in de session storage met behulp van 'sessionStorage.setItem('selectedCard', JSON.stringify(selectedCard))'. 
+                                De waarde van selectedCard wordt omgezet naar een JSON-string met JSON.stringify() voordat deze wordt opgeslagen.
+                                Met 'window.location.href = 'drawnCard.html'' wordt de pagina 'drawnCard.html' geopend.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/tarotkaartFunctie8.jpg" width="450px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De functie wordt uitgevoerd wanneer het HTML-document volledig is geladen met 'window.addEventListener('DOMContentLoaded', () => { ... })'.
+                                'const kaarten = document.getElementById('gekozenKaart')' selecteert het element met de ID 'gekozenKaart'.
+                                De eerder opgeslagen 'selectedCard' wordt opgehaald uit de session storage en toegewezen aan de variabele 'selectedCard' met 'const selectedCard = JSON.parse(sessionStorage.getItem('selectedCard'))'.</p>
+                        </div>
+                    </div>
+
+                <div class="pdfButtonContainer">
+                    <div class="tekstPdfButton">
+                        <p>Een gedetailleerde omschrijving is te vinden in het pdf-document.</p>
+                    </div>
+                    <a href="documentation/developmentProjectX.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>Development project x</button>
+                    </a>
+                </div>
+        </div>
+
+        <div class="filterDiv vueJS">
+            <h2>Reden</h2>
+                <div class="widthFiftyVueReden">
+                    <p>Tijdens de career day heb ik met verschillende bedrijven gesproken en zij gaven aan dat het belangrijk was om een framework te kennen, 
+                        waarbij React werd aanbevolen. Dit heb ik met de docent besproken, maar ik kreeg te horen dat het een steile leercurve heeft. 
+                        Daarom adviseerde hij mij om eerst Vue.js te leren.</p>
+                    <p><b>Een gedetailleerde omschrijving is te vinden in het pdf-document.</b></p>
+                </div>
+
+                <div class="pdfButtonContainer">
+                    <a href="documentation/vueFramework.pdf" target="_blank">
+                        <button class="pdfButton">Open PDF<br>Vue.js</button>
+                    </a>
+                </div>
+
+            <h2>Installatie</h2>
+                <div class="widthRowFull">
+                    <div class="widthFifty">
+                        <img src="photosDevelopment/installatieVue.jpg" width="300px">
+                    </div>
+                    <div class="widthFifty">
+                        <p>Ik heb Vue.js geïnstalleerd met behulp van een YouTube-video. Ik heb eerst Node.js geïnstalleerd en daarna Vue.js. 
+                            Met behulp van de opdrachtprompt (CMD) heb ik gecontroleerd of Node.js en Vue.js correct waren geïnstalleerd. 
+                            Vervolgens heb ik het commando 'vue create' gebruikt om de basisstructuur van mijn Vue.js-project aan te maken. 
+                            Om mijn project te starten, ben ik naar de projectmap genavigeerd en heb ik het commando 'npm run serve' uitgevoerd. 
+                            Na het succesvol aanmaken van dit Vue.js-project, kon ik de webpagina bekijken. 
+                            Dit is de standaardpagina van een Vue-project, die kan worden aangepast en geconfigureerd naar mijn wensen.</p>
+                    </div>
+                </div>
+
+            <h2>YouTube oefening</h2>
+                <h3>Vue.js-bibliotheek</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/vuejsYoutubeOefening1.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Deze code laadt Vue.js 3.0.2 van het unpkg.com-cdn. 
+                                Hierdoor wordt de Vue.js-bibliotheek gehost door unpkg.com en gedownload en uitgevoerd wanneer de webpagina wordt geladen.</p>
+                        </div>
+                    </div>
+
+                <h3>Vue.createApp</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/Vue.createApp.jpg" width="500px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Vue.createApp is een belangrijke functie in Vue.js waarmee je een Vue-toepassing kunt maken en beheren.</p>
+                        </div>
+                    </div>
+                
+                <h3>app.mount</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/app.mount.jpg" width="300px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>app.mount('#app') koppelt de Vue-applicatie aan het element met de selector '#app' op de webpagina.</p>
+                        </div>
+                    </div>
+
+                <h3>Variabelen gebruiken</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/vuejsVariabelen1.jpg" width="300px">
+                            <img src="photosDevelopment/vuejsVariabelen2.jpg" width="250px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Dit betekent dat de waarden van de title, author en age in het gegevensobject worden weergegeven in de p-tag binnen de div-tag met de id 'app'. </p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/vuejsVariabelen3.jpg" width="550px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De eerste knop heeft het v-on:click-attribuut dat de event handler 'age++' toewijst, wat de leeftijdswaarde met één verhoogt wanneer erop wordt geklikt. 
+                                De tweede knop heeft ook het v-on:click-attribuut met de event handler 'age--', wat de leeftijdswaarde met één verlaagt wanneer erop wordt geklikt.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/vuejsVariabelen4.jpg" width="300px">
+                            <img src="photosDevelopment/vuejsVariabelen5.jpg" width="250px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Deze code bevat een div met een @click-attribuut dat de event handler 'changeTitle' activeert wanneer erop wordt geklikt. 
+                                De 'changeTitle' methode is onderdeel van een Vue-component en verandert de waarde van de 'title' naar 'Words of Radiance'.</p>
+                        </div>
+                    </div>
+
+                <h3>Show and hide</h3>
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/vuejsShowandhide1.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>De div-container bevat een div-element met 'v-if' dat showBooks controleert en de gegevens zoals title, author en age weergeeft.
+                                Een button-element met @click roept de toggleShowBooks-methode aan. Binnen het button-element zijn twee span-elementen met v-if en v-else, 
+                                die dynamische tekst tonen: "Hide books" bij true en "Show books" bij false.
+                                Een div-element met 'v-show' laat het div-element "Currently showing books" zien bij true en behoudt ruimte op de pagina bij false.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/vuejsShowandhide2.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Bij 'v-if' wordt de 'div showBooks' uit de DOM verwijderd als de waarde 'false' is, terwijl 'v-show' de 'div' verbergt 
+                                of weergeeft door middel van CSS ('display: none' of 'display: block'). 
+                                'v-if' heeft meer impact op de laadtijd en het geheugen.</p>
+                        </div>
+                    </div>
+
+                    <div class="widthRowFull">
+                        <div class="widthFifty">
+                            <img src="photosDevelopment/vuejsShowandhide3.jpg" width="400px">
+                        </div>
+                        <div class="widthFifty">
+                            <p>Deze code maakt een Vue.js-applicatie met een gegevensobject dat onder andere een boolean genaamd ‘showBooks’ bevat. 
+                                Er is ook een methode genaamd ‘toggleShowBooks’ die de waarde van ‘showBooks’ omkeert wanneer deze wordt aangeroepen.</p>
+                        </div>
+                    </div>
+
+        </div>
+
+    </div>
+
+    <footer></footer>
+
+</body>
+</html>
